@@ -39,6 +39,17 @@ class ExponeaBridge: NSObject {
     @objc static func onNotification(userInfo: [AnyHashable : Any]) {
         Exponea.shared.handlePushNotificationOpened(userInfo: userInfo)
     }
+
+    @objc static func authorizePush() {
+        UNUserNotificationCenter.current()
+            .requestAuthorization(options: [.badge, .alert, .sound]) { (granted, _) in
+                if granted {
+                    DispatchQueue.main.async {
+                        UIApplication.shared.registerForRemoteNotifications()
+                    }
+                }
+            }
+    }
 }
 
 class ExponeaPushDelegate: NSObject, UNUserNotificationCenterDelegate {
