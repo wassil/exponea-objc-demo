@@ -17,7 +17,11 @@ class ExponeaBridge: NSObject {
                 baseUrl: "https://cloud-api.exponea.com",
                 projectMapping: nil
             ),
-            pushNotificationTracking: .disabled
+            pushNotificationTracking: .enabled(appGroup: "group.com.exponea.ExponeaSDK-Example2")
         )
+    }
+
+    @objc static func checkPushSetup() {
+        Exponea.shared.checkPushSetup = true
     }
 }

@@ -33,6 +33,7 @@
 		057E4FE9256D385A00646705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		057E4FF5256D398600646705 /* ObjCTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		057E4FF6256D398600646705 /* ExponeaBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponeaBridge.swift; sourceTree = "<group>"; };
+		057E4FFD256D3D5200646705 /* ObjCTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ObjCTest.entitlements; sourceTree = "<group>"; };
 		09F8DEFFC594A8FE4037FF3F /* Pods-ObjCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCTest.debug.xcconfig"; path = "Target Support Files/Pods-ObjCTest/Pods-ObjCTest.debug.xcconfig"; sourceTree = "<group>"; };
 		0E2D4A0DE826BDCEFB36041D /* Pods-ObjCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCTest.release.xcconfig"; path = "Target Support Files/Pods-ObjCTest/Pods-ObjCTest.release.xcconfig"; sourceTree = "<group>"; };
 		4BAFADB60697C875EFDF293D /* Pods_ObjCTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjCTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +72,7 @@
 		057E4FD6256D385800646705 /* ObjCTest */ = {
 			isa = PBXGroup;
 			children = (
+				057E4FFD256D3D5200646705 /* ObjCTest.entitlements */,
 				057E4FD7256D385800646705 /* AppDelegate.h */,
 				057E4FD8256D385800646705 /* AppDelegate.m */,
 				057E4FDA256D385800646705 /* SceneDelegate.h */,
@@ -368,15 +370,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T22S7RD8Z8;
+				CODE_SIGN_ENTITLEMENTS = ObjCTest/ObjCTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UVDCL7YSZS;
 				INFOPLIST_FILE = ObjCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jurajdudak.ObjCTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exponea.ExponeaSDK-Example2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Exponea iOS SDK Example App";
 				SWIFT_OBJC_BRIDGING_HEADER = "ObjCTest/ObjCTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -391,15 +396,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T22S7RD8Z8;
+				CODE_SIGN_ENTITLEMENTS = ObjCTest/ObjCTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UVDCL7YSZS;
 				INFOPLIST_FILE = ObjCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jurajdudak.ObjCTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exponea.ExponeaSDK-Example2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Exponea iOS SDK Example App";
 				SWIFT_OBJC_BRIDGING_HEADER = "ObjCTest/ObjCTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

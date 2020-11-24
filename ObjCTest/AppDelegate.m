@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [ExponeaBridge checkPushSetup];
     [ExponeaBridge configureExponea];
     return YES;
 }
