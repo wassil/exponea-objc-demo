@@ -39,5 +39,13 @@
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    [ExponeaBridge gotTokenWithToken:deviceToken];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    [ExponeaBridge onNotificationWithUserInfo:userInfo];
+    completionHandler(UIBackgroundFetchResultNewData);
+}
 
 @end

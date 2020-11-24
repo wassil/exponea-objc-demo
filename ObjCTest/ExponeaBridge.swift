@@ -9,6 +9,8 @@ import Foundation
 import ExponeaSDK
 
 class ExponeaBridge: NSObject {
+    private static var pushDelegate = ExponeaPushDelegate()
+
     @objc static func configureExponea() {
         Exponea.shared.configure(
             Exponea.ProjectSettings(
@@ -19,9 +21,33 @@ class ExponeaBridge: NSObject {
             ),
             pushNotificationTracking: .enabled(appGroup: "group.com.exponea.ExponeaSDK-Example2")
         )
+        UNUserNotificationCenter.current().delegate = pushDelegate
     }
 
     @objc static func checkPushSetup() {
         Exponea.shared.checkPushSetup = true
+    }
+
+    @objc static func gotToken(token: Data) {
+        Exponea.shared.handlePushNotificationToken(deviceToken: token)
+    }
+
+    @objc static func onNotification(userInfo: [AnyHashable : Any], actionIdentifier: String?) {
+        Exponea.shared.handlePushNotificationOpened(userInfo: userInfo, actionIdentifier: actionIdentifier)
+    }
+
+    @objc static func onNotification(userInfo: [AnyHashable : Any]) {
+        Exponea.shared.handlePushNotificationOpened(userInfo: userInfo)
+    }
+}
+
+class ExponeaPushDelegate: NSObject, UNUserNotificationCenterDelegate {
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        didReceive response: UNNotificationResponse,
+        withCompletionHandler completionHandler: @escaping () -> Void
+    ) {
+        Exponea.shared.handlePushNotificationOpened(response: response)
+        completionHandler()
     }
 }
