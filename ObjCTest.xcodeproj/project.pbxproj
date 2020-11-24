@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		057E4FE4256D385A00646705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057E4FE3256D385A00646705 /* Assets.xcassets */; };
 		057E4FE7256D385A00646705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057E4FE5256D385A00646705 /* LaunchScreen.storyboard */; };
 		057E4FEA256D385A00646705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E4FE9256D385A00646705 /* main.m */; };
+		057E4FF7256D398600646705 /* ExponeaBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E4FF6256D398600646705 /* ExponeaBridge.swift */; };
 		1D07DC1D03E5EBD229983945 /* Pods_ObjCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAFADB60697C875EFDF293D /* Pods_ObjCTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		057E4FE6256D385A00646705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		057E4FE8256D385A00646705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		057E4FE9256D385A00646705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		057E4FF5256D398600646705 /* ObjCTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		057E4FF6256D398600646705 /* ExponeaBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponeaBridge.swift; sourceTree = "<group>"; };
 		09F8DEFFC594A8FE4037FF3F /* Pods-ObjCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCTest.debug.xcconfig"; path = "Target Support Files/Pods-ObjCTest/Pods-ObjCTest.debug.xcconfig"; sourceTree = "<group>"; };
 		0E2D4A0DE826BDCEFB36041D /* Pods-ObjCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCTest.release.xcconfig"; path = "Target Support Files/Pods-ObjCTest/Pods-ObjCTest.release.xcconfig"; sourceTree = "<group>"; };
 		4BAFADB60697C875EFDF293D /* Pods_ObjCTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjCTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +82,8 @@
 				057E4FE5256D385A00646705 /* LaunchScreen.storyboard */,
 				057E4FE8256D385A00646705 /* Info.plist */,
 				057E4FE9256D385A00646705 /* main.m */,
+				057E4FF6256D398600646705 /* ExponeaBridge.swift */,
+				057E4FF5256D398600646705 /* ObjCTest-Bridging-Header.h */,
 			);
 			path = ObjCTest;
 			sourceTree = "<group>";
@@ -97,7 +102,6 @@
 				09F8DEFFC594A8FE4037FF3F /* Pods-ObjCTest.debug.xcconfig */,
 				0E2D4A0DE826BDCEFB36041D /* Pods-ObjCTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,6 +137,7 @@
 				TargetAttributes = {
 					057E4FD3256D385800646705 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -218,6 +223,7 @@
 				057E4FD9256D385800646705 /* AppDelegate.m in Sources */,
 				057E4FEA256D385A00646705 /* main.m in Sources */,
 				057E4FDC256D385800646705 /* SceneDelegate.m in Sources */,
+				057E4FF7256D398600646705 /* ExponeaBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T22S7RD8Z8;
 				INFOPLIST_FILE = ObjCTest/Info.plist;
@@ -370,6 +377,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jurajdudak.ObjCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjCTest/ObjCTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -380,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T22S7RD8Z8;
 				INFOPLIST_FILE = ObjCTest/Info.plist;
@@ -389,6 +400,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jurajdudak.ObjCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjCTest/ObjCTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
