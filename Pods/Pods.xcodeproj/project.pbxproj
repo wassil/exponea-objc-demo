@@ -1,0 +1,1208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00798F12782222F1EDF4AE9F6733FB61 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB6560E8E701EEAB12459B06A61082 /* DatabaseManager.swift */; };
+		0252F2695C2CB86A96C2E9DC1556A62B /* DatabaseManager+DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED5BC3D667D2EED452306B6BDB5077 /* DatabaseManager+DataType.swift */; };
+		0426978D9E487ABFBA220345FE7B0CA6 /* NotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCA2BFF5E73AB8AA6AD271054582324 /* NotificationData.swift */; };
+		0587097B483AF4D683D9B1367CD51D0C /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921B4A7523356BD5DE9E139B544F58D /* HTTPMethod.swift */; };
+		05BCDA7CF412ED12688749B4BEE54CB1 /* PushNotificationReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867D0DDC45CA2D3FEFDA3832D09E78D /* PushNotificationReceiver.swift */; };
+		05EA90265C0A4FA8494B3A37185D1342 /* ExponeaInternal+Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2634593428344A983F56DCCFD118DB3 /* ExponeaInternal+Tracking.swift */; };
+		06C4B083CD3333DB43500FE857A62728 /* ErrorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2842D6321CEBA99A1B49DC437E8F6C00 /* ErrorData.swift */; };
+		06C938F43A55C6A78EB26CF9C38D6D50 /* ExponeaAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930435A0ADC81A766E7C0B69F001779D /* ExponeaAppDelegate.swift */; };
+		06F0559979DC79129EC637B879ABF6F0 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760329DB3F8F545B8ECAE86142177D6B /* Recommendation.swift */; };
+		070EB538373118382B10D4D36F8A1AA7 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AF14B0F614F4271D49D8DA08B55050 /* EventType.swift */; };
+		0D0925CA64CCA54AC17C14BEB9B83D11 /* InAppMessageAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EBC08A716B78464422868C406232D7 /* InAppMessageAlertView.swift */; };
+		1239B3C6C2F37930E1D13CE349A1237C /* PushNotificationSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10620A85083DA4B5AEDD9D0E74DAE744 /* PushNotificationSwizzler.swift */; };
+		130104D071D3F07ADFD2DC6D76AC05D2 /* PushOpenedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8D40C9FBE8838E79BB2D7E2204F06 /* PushOpenedData.swift */; };
+		135B685B30D11733822E4B81220EC0AD /* ExponeaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC8CF8E4083E085BD342BC1197BE5 /* ExponeaError.swift */; };
+		13B21CD02352AE5F8384C955BE364B59 /* TrackingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6022D069E1B2F269654741ED8B5099E /* TrackingRepository.swift */; };
+		174AC8CFE4123DC69362E101D99CE084 /* EventFilterAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36B22E41EA10280ABF1FAF9E2C2CEC8 /* EventFilterAttribute.swift */; };
+		196E4D17BE38089167625DCF6C784693 /* BuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17299B0A6C80F8111381912A516C8B /* BuildConfiguration.swift */; };
+		1B41A3BB9CE7D9419E5137069915BF27 /* TrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267FB07FEA1EFA6E1D9277A42248F40 /* TrackingManager.swift */; };
+		1E40475654401F9CB22CC5EB59918FF1 /* TelemetryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610A651B1480A324A3F3BFD52591C37C /* TelemetryStorage.swift */; };
+		1EB71F0582B7D6168796B63505A44E57 /* Configuration+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3652B476D41E791545E3346FCE466F06 /* Configuration+UserDefaults.swift */; };
+		1ECDE6200CF59579B23C2EC38659D846 /* ExponeaSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DEDD6F54014F1F25587DDF8A126033 /* ExponeaSDK-dummy.m */; };
+		1EF8E0C7AAEE64898A90089AEEC5AB03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		219960FF419BF3C3BF2F72524D649206 /* InAppMessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F664D07314ABFDB45F61C162C3A2F91 /* InAppMessagesManager.swift */; };
+		23C340C1CB03DF43CC7DB043DC6794BA /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12A304D431915AE9221891C3455545 /* LogLevel.swift */; };
+		242A51467315080D67F8D76CEABC2DAC /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577A4565ED39C2941F025D497B875EA /* PushNotificationManager.swift */; };
+		2704B76E80474492976F8A4ABB3AD6CF /* RepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8C20BAFB49DED96F0D8B1D0CF6AB0B /* RepositoryType.swift */; };
+		29574D3A0F46DE7E209B504F6DD29A36 /* FlushingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FF6730C4B10009A7F2D5D0BC5A993 /* FlushingManager.swift */; };
+		2978CE33E33D30B0E5A40419233AB603 /* FileTelemetryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9F19EDB47FCFFD6073DC83C96F75D /* FileTelemetryStorage.swift */; };
+		2A5FA4A5565A070745CE04C3A5590752 /* objc_tryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B08EBBCB9D52207C537462831AA2CD78 /* objc_tryCatch.m */; };
+		2DFF96F58DB20693BAAEF387E13C5299 /* ConsentSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60440916BBD23E7E8B655172747BC32 /* ConsentSources.swift */; };
+		2E2574BD0F6E3D7E810E2DC0E1AF7E21 /* ServerRepository+TrackingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AED12A29CE6CB6FA76CF908FED5E3 /* ServerRepository+TrackingRepository.swift */; };
+		2EC888BA9B21C3F25C3334002EE2AB87 /* UrlOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6B37D3FD64A5E0818280BE768D2B7 /* UrlOpener.swift */; };
+		30C9FEC79013EA45AF6B8ABE6A7D45C6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114783853607E161C7B6A96CC5B09F2A /* Customer.swift */; };
+		39223E168340563D599B7A2DC0C00F5E /* InAppMessageTrackingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC354AA682FE94E6046A236DE8E7AF25 /* InAppMessageTrackingDelegate.swift */; };
+		3B0CA233B4D82FD3043547FAF2B83735 /* InAppMessagesCacheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345281B5322DA80D26E600728691CA3C /* InAppMessagesCacheType.swift */; };
+		3B2706CB54A04508B73871F7B59FCF9B /* PushNotificationManager+UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83496FEBB45DD17FE9DD62C0D462B5D1 /* PushNotificationManager+UIResponder.swift */; };
+		3C47BB9EF5F68F8AC56BAC859DACAC0E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520338A428764DF31601F02C41911D74 /* Configuration.swift */; };
+		3D734F278F5761FA8D4C9F8DB292676A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB64B797B36E5030CC7B670C036BDD9 /* Result.swift */; };
+		3E64AE85FFCE5535655F8CAA008A18CB /* FlushingManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CD579F1C00888313FF222B0B3112F4 /* FlushingManagerType.swift */; };
+		3FC3B6E189B15DDA9CA289F215EB6753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3FC90DE3AEC3566CDEEB18C37B00FF1D /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27EF31D6AFFECD9D60B57133C3CB93 /* Authorization.swift */; };
+		41EF53B23D09E2F9A152A54AC1C14A72 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A720833FBC0EF44F50779569063C11 /* Routes.swift */; };
+		42D7841D1E88BF91C9445C71C276C93B /* MultipleErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A3BBFE22E188B50318B79ADE96009 /* MultipleErrorResponse.swift */; };
+		44114E6345A90F271FEF6A7BE4599EE5 /* SelfCheckRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF382C90883E2A8BA2CC6AB46BBD53 /* SelfCheckRepository.swift */; };
+		4496A8B30116895637841AAE45E8F54A /* RecommendationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCE895BBA6459B6A53A708CF01D5A6 /* RecommendationRequest.swift */; };
+		492AE138C962A998E7461C5BC2F1F89D /* UNAuthorizationStatusProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193A949EB77FDECEFECC6A9FA09B853 /* UNAuthorizationStatusProvider.swift */; };
+		4D62183BF893295E900981F5140E2AAB /* ExponeaInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553B40DB492D59C52C0857E225B7C32 /* ExponeaInternal.swift */; };
+		518AB5C483B16CA6C1AF44CD1FB98B54 /* TrackingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1945BFFD61E6B0DF033661BF473A8748 /* TrackingParameters.swift */; };
+		51E9BA83065B22D98D66BE50403C954B /* DispatchQueue+OnceTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A551F8D5A07F4B76CDB6D127F9BC2 /* DispatchQueue+OnceTracker.swift */; };
+		53D13BDCEB707A3BE9D820606850594B /* ServerRepository+FetchingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E832653DEC6AD3E0BAD082357EB108C /* ServerRepository+FetchingRepository.swift */; };
+		56121DA8091241FF0F9E1919D6AEFC39 /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B986CD411F1EFF0DD898582ABE40715 /* Swizzler.swift */; };
+		56E8355A75816CC6A44EDD63A802328A /* UrlOpenerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3F17DC4FF512484E90A33A77B51DC /* UrlOpenerType.swift */; };
+		5731419244A0BBD9D8468D6E0904D0DC /* TelemetryUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78158A5452C7273611B5A0AE839C0DB8 /* TelemetryUtility.swift */; };
+		58F1C66F4D0641557D4E38CF09BABC17 /* CrashManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5236F8C8A0B6D9D6A1BDA53D880D8B /* CrashManager.swift */; };
+		5933090E96DFEC1D460B08C562D7C577 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5730AC0FF4C41A3EBA00E815B48C86 /* SessionManager.swift */; };
+		595C4F61E5954689D5FDA1D211467A9B /* String+URLValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4456616FEB29ACE2C3259115111DF9 /* String+URLValidation.swift */; };
+		59A65EA84CD50A929CD041E4C559A798 /* UIColor+FromHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4105EE8DCEDF0BF3CBEED86BBB628 /* UIColor+FromHexString.swift */; };
+		5A47BFE9DD77274BB522FA442D53B213 /* InAppMessagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B1CEF9A3784AAC4B6313CD74D178DC /* InAppMessagesResponse.swift */; };
+		5E79D2903F735D9D048FC3CBA2EAEAA9 /* ExportFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED7126C7B7CF685DD8B41846BE2E83 /* ExportFormat.swift */; };
+		5ED4A2BB79EDEB5C5A3081C4448F1534 /* Exponea+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27A49D631BEA9DA9E8D9658859EE1F /* Exponea+Configuration.swift */; };
+		604AB8D349488ADF221D85A5273ABF39 /* FlushingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89034128B1C01D33015177B15013F651 /* FlushingMode.swift */; };
+		6060EE40E93ED04465384F9E96045C19 /* InAppMessageSlideInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CF8F22088A1510775DC10270D904F /* InAppMessageSlideInView.swift */; };
+		60E40003D2FA586AA7FB37F1A2EAA7D6 /* PushNotificationSelfCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D794068F0D2281B24FFB43A47A100E7A /* PushNotificationSelfCheck.swift */; };
+		618A4FCFE9E6EF56512C7DB16EF3555F /* Data+TokenString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EA18E3E0AAD721DB40468DB934BF2 /* Data+TokenString.swift */; };
+		63406C6D6ABD0C1B22835A8DEB49E505 /* Exponea.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7556BFAE45D3E3E2BF70F7136D6C489 /* Exponea.swift */; };
+		655238BA62175AA963F70993785C328A /* UIApplication+UIApplicationDelegating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F04407B6AEC22E8E68877C45E782BF /* UIApplication+UIApplicationDelegating.swift */; };
+		68F0561CA3DF05B82CCA80FB5EDC9943 /* Pods-ObjCTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0F98DD0FC0788CF514BA59FEAB6163 /* Pods-ObjCTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		697B9ACD14C3DF2A0000CA551F9D39AB /* Pods-ObjCTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA76498C6A0FCBC56C4C942156183E /* Pods-ObjCTest-dummy.m */; };
+		69A01D36EEE4E57DA18B49C32E44162B /* TrackingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880C488C49802BF987B4B5506258A35E /* TrackingObject.swift */; };
+		6BED04466750D6615C13A36394EADF1C /* InAppMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD57B2192351B29B76F692CE4112FB8 /* InAppMessageView.swift */; };
+		6C6950D9B43C89A728D6D7F66EC0EDA8 /* DataType+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460012006BCD9E495456A8D87772DC5 /* DataType+Codable.swift */; };
+		6DA98421340C7C9FDCFAD64561B52E40 /* TrackingManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBCC86E147BD73713725DB5E6B5B5C5 /* TrackingManagerType.swift */; };
+		6E1CBAF37EBCC0D9392C11BBB451FF73 /* InAppMessagesManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82EE63053CFA37AE383775C9580575 /* InAppMessagesManagerType.swift */; };
+		7123830C4E61DB0ABD848952D5C62E9F /* PushNotificationSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F43238FE64EF018C5913B18E2432B5 /* PushNotificationSelectors.swift */; };
+		725E55D02BFD0809DC8B545DBF09DA77 /* ServerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9ED42FF065BBD9ED511F17EBEB14F1 /* ServerRepository.swift */; };
+		75ACF42D6F67C11FF15C04E617553FE9 /* NSManagedObjectContext+Perform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E92779A098AC52B8E3C3F336D447B /* NSManagedObjectContext+Perform.swift */; };
+		7A1553AE40ED1FBD46D0014DD5BE58C9 /* InAppMessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23AA57DA802C1D659860FFEE1D353E /* InAppMessagePresenter.swift */; };
+		7B119A1DF3F79B772233300C495A8523 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063B8A710D62F527A6BC4D9B8791AF6A /* JSONConvertible.swift */; };
+		7D9EE1DBD26B54E81D2F704BBC1F7EAC /* objc_tryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B4BBD4E36ADE92D8163E7D63EB8ED6 /* objc_tryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB891F1472ACE52B8AF7432CABA05EB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F141DA222E1DF43C723DDD82A7EB3B2 /* Reachability.swift */; };
+		7F4CE2513A6A1925380E303B5F626127 /* StringOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66EC4AF1C65F08C355A2E280B9FBF20 /* StringOperators.swift */; };
+		7FE06A77C577D67E85A2E9D636E37295 /* ExponeaNotificationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C72C5CDE768BEA3FD7FE590AD72FC0 /* ExponeaNotificationAction.swift */; };
+		800BC5877B2B6ADD81AAB71392451942 /* InAppMessagesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E407B4B739F1150FD439D32B940FDE /* InAppMessagesRequest.swift */; };
+		82F6551AADB696DC7881E41A800105AA /* JSON+SnakeCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31C07A0AF85B95801213128644B4658 /* JSON+SnakeCase.swift */; };
+		84202DC580F0FEEA052A953AFC27F5C2 /* ExponeaSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A505899D999032050550D7482DC81F /* ExponeaSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859CF31F1853564565A9D2729773A7B3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B39115996B5A4BFE88CBAE3DF984B /* Logger.swift */; };
+		8A83FE7BACE6C2DD279D212C0B8796A2 /* SessionManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D438292BCD13A690B37DC3F834AFB /* SessionManagerType.swift */; };
+		8A8EFDA3A5013DEF7FD32405819CC761 /* URLResponse+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAE117B7DC7ACA3446C9ACAE5FE8CC /* URLResponse+Debug.swift */; };
+		8BA80F18907DA75638B02315FEBA5D47 /* GenericOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F54119BD5CDA493747C3A4528BFBB /* GenericOperators.swift */; };
+		8DB67F39FF1EBFB4F61BBDED30F508CE /* EventFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D597E8A35335F10CB118E1F1C218509 /* EventFilter.swift */; };
+		8E4A5BE4406E250C197D00A5034FA6E8 /* InAppMessagesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C5E1B7525D2D8DCDC4733B135F930 /* InAppMessagesCache.swift */; };
+		91A1178260A1FD71EC9EB84C9165DAC3 /* TelemetryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55ED85DAD2AB5C1B8F6F8C9C9308D72 /* TelemetryManager.swift */; };
+		92533BD045E320CDB8919505E127E180 /* DatabaseManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D319F20BC1ED16B1854FB0538C726 /* DatabaseManagerError.swift */; };
+		93357ABDF1D71CBD81926B8CA30A023A /* TrackCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F280C74E9C88917929DD65C808D53DF /* TrackCustomer.swift */; };
+		93E4994A13BF1B791CBF92AE0B458DCC /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E132EE991A97AF8E9B0C974E485537 /* DataType.swift */; };
+		9454CE79B4129C862ADBB6A737E3BA3E /* InAppMessagePresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA1187EFFCDF62781370B9836D5156F /* InAppMessagePresenterType.swift */; };
+		9ABF1400ADB6519D45B7820CF216F378 /* PushSelfCheckRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509D86C31D9F0CB74D0878F6EAAC282 /* PushSelfCheckRequest.swift */; };
+		9BE56529F8827110365E6341C8F71D0B /* UNUserNotificationCenter+UNUserNotificationCenterDelegating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B92D88383BCC459A43646979C09CFA /* UNUserNotificationCenter+UNUserNotificationCenterDelegating.swift */; };
+		A094194D505552AE191E820A5F7EC179 /* CampaignData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35D5C639E17F1CB77D6F9976587AA7 /* CampaignData.swift */; };
+		A153B761C3857BF7612EBC341367354F /* TrackingManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211C816EF9D25DCEFD61C947BA9AC14 /* TrackingManagerError.swift */; };
+		A2123B2C3CCA79F7DD6E630AA2D9C899 /* InAppMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE2EB02D2185CEA8F63CDBCD3930F2 /* InAppMessage.swift */; };
+		A2BB832623283788EA9328082E3A9576 /* RepositoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3062AA7755E59ECFE5417A8FF13A859 /* RepositoryError.swift */; };
+		A372D8FB4667F55B9DE93982F063381E /* BooleanOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC144B7C2C742339789A0F485D4C28E /* BooleanOperators.swift */; };
+		A3E0B4FB18C3F95D8E722FB592538E46 /* ExponeaNotificationActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE86243EFC0B57BFBE461C341167263 /* ExponeaNotificationActionType.swift */; };
+		A539A07809647CB1D48A1DB71F8C366E /* InAppMessageDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A655C013DA4A4EDC70D3F50E64B33B /* InAppMessageDialogView.swift */; };
+		A6BA0D017772B3880456607928127565 /* InAppMessageDisplayStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330F8A000B48D056B0C83CB619D752C4 /* InAppMessageDisplayStatus.swift */; };
+		A9775D96C2B6F1496E6379216D57114A /* NSManagedObjectWithContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137FF7CC3428C1ACAE39DD2CEB76DE7 /* NSManagedObjectWithContext.swift */; };
+		AAD3601D5F5F0CAD9211AC5317E565D2 /* ServerRepository+SelfCheckRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281CB84078E34CE3DCC1ED38BCC97A36 /* ServerRepository+SelfCheckRepository.swift */; };
+		AE696B3E5A016C6111001C378D792537 /* FlushableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EFD815B11826C3A06A00F52AC15F60 /* FlushableObject.swift */; };
+		B3A46B2090778C98CEF7B58B37BDD909 /* FetchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA941BB3EC13AD2F5DCED495545CA42 /* FetchRepository.swift */; };
+		B4313EEE7CF8F0BF7DB1BFFD09EFF0A1 /* ConsentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378AF000F4F58F08B1174DB2E54A1CE2 /* ConsentsResponse.swift */; };
+		B4A1263F5A73F7B32AAA2AE80F947DEE /* KeyValueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADDF8A165A7B3E3EF89E81DB444BD38 /* KeyValueItem.swift */; };
+		B5240C6C104F3D0FA781DCAB169DB290 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF312122CE3CAFDF05ACD6D778DB58 /* UIImage+Gif.swift */; };
+		B842AFB493B05FCADBC926D96983FFA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8B3A168EC7DF8D9F663E6C2E6C2BDC /* Constants.swift */; };
+		B9063DEB69728D527FDE1C998723BF70 /* NSPersistentContainer+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243D64F34EEEDDF65B3996DFC5B25CE /* NSPersistentContainer+Bundle.swift */; };
+		B94A1BC6A8D095A333D385C5AF4F498D /* ExponeaInternal+Fetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821B3E9F9DB1B48CAB801E1F5CDE3884 /* ExponeaInternal+Fetching.swift */; };
+		BD8F3FD545348F253D1888B52AF6E8E0 /* NotificationData+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730D60E92B163946ED2D2AF71CEFE98 /* NotificationData+Properties.swift */; };
+		BE37C0F058A5126B741A95C4B32A8B70 /* DatabaseManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567E05A4CEB7877337A35220275E1247 /* DatabaseManagerType.swift */; };
+		BE3B5D0D2B582BDDD1950786DD828690 /* EventFilterConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4114B27CFD354F25D59CCFE4F4EA2EBD /* EventFilterConstraint.swift */; };
+		C1E7E03138940EC46868A814A82F5274 /* NumberOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87A709D2B60566EDAACC002FF1DE083 /* NumberOperators.swift */; };
+		C218DCE7FD12A9A737BFD06AC68EA5A7 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1072C43E70A3F2001A592559E69205A /* RequestFactory.swift */; };
+		C244250AEB120AA455CE16F2D2F73779 /* Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336501132ECF2A0FA0395B6D32139AA4 /* Swizzle.swift */; };
+		C2A21E823A461BD530503A53C11E69D6 /* TelemetryUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80FEC7BBCA162CA371F6F81691F89A /* TelemetryUpload.swift */; };
+		C33FD80D8BAF06D69FC50B87B1702618 /* VSAppCenterAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68A9C7CDFB604A840DE4679384C481 /* VSAppCenterAPIModel.swift */; };
+		C7480D1AB4A7C5D845DB7C29508B6ECA /* EventFilterConstraint+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C7B24B2E1CB36780EDDE68D22C2103 /* EventFilterConstraint+Operators.swift */; };
+		C7BCA6E96A7E39DE910B01A711C285FE /* Configuration+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA6A9EBF4E479F0D59690C4C2C6682 /* Configuration+Validation.swift */; };
+		CE83CCD59E3724C78C358C33498BF7E2 /* RecommendationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B312564E7BB2A56AE8EC63389A91B1F /* RecommendationOptions.swift */; };
+		CEB51299E6EDE26316307DBF2E215880 /* DeviceProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E062E1A3DA195DA5A22D4896851A01B /* DeviceProperties.swift */; };
+		D04F8128EEF24704F20AB77AB4E2D542 /* EventFilterOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87010F57C806D3ABDEF2A3EE0622AB /* EventFilterOperator.swift */; };
+		D230FF817D4DF172544CD51CEEFCCF3D /* PushNotificationManager+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E2E3846E01245B985729BFF08FABD /* PushNotificationManager+NSObject.swift */; };
+		D443446F022B968B2C6E132D456DF91C /* CrashLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF157B19D06A97DB0E0A752D541FC480 /* CrashLog.swift */; };
+		D51CD76765C11AE62C3B7CE699E2AE80 /* VSAppCenterTelemetryUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0813091DB522A5248E72C7B6CF70E097 /* VSAppCenterTelemetryUpload.swift */; };
+		D5C832167696DDAA23ED955D397E37D4 /* ExponeaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45C3124F8EEE0EB842F9BD6A2311F03 /* ExponeaType.swift */; };
+		D69727FEB98EA555771B4A742C910B1F /* InAppMessagePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9010365D3711A17FC1B846CDF33E660 /* InAppMessagePayload.swift */; };
+		D7E23DD8F9963F859379306A94C69FDB /* InAppMessageActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3ED9E5D30EE8D4529118D2FC2D3179 /* InAppMessageActionButton.swift */; };
+		D990933CBF2AFE06FC1195A01871014E /* PushNotificationManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B061FFE8EE2324F76A063447091C05F /* PushNotificationManagerType.swift */; };
+		DBA876961EB7F4CFCA8D4AB2764D1AD6 /* DatabaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D68A0A88ECC9F2B7C184537F443CC8C9 /* DatabaseModel.xcdatamodeld */; };
+		E058D93349C9FE77FD4411111B1D8F09 /* Consent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A153B779E39ABFB53DCC7C8CB9F7F44 /* Consent.swift */; };
+		E138A6653A1A15285960AD33A1D88B99 /* PushNotificationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E06802B3A31B81EDF5088DDD63D0BB /* PushNotificationParser.swift */; };
+		E38112A4C6B274B8376B3E4F2FAADAF5 /* TokenTrackFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606A13617313BBE04A9F460FAD343A6 /* TokenTrackFrequency.swift */; };
+		E39D58734A471801F978B68CC6A446E7 /* InAppMessageDisplayStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682775050662463F13EBFC6A7EE4617A /* InAppMessageDisplayStateStore.swift */; };
+		E62CAB2734383CD2EE07AD394362744F /* TrackEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25631E5E1D85B9F1C1B0D1D7777F8060 /* TrackEvent.swift */; };
+		F3B3F80C66C906EA33FD832A22D6328A /* URLRequest+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330730AE9FCEF9B9CEC259F407772492 /* URLRequest+Debug.swift */; };
+		F40FC88A1342BA413D52F5C788DCBFCA /* RecommendationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5341CC9278243341F255A1CC6032C2F /* RecommendationResponse.swift */; };
+		F797E592DA0A0E52FD0B7C6235C3A37D /* DateFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8AB2F8CF1E551F2BADE856A24CC2C5 /* DateFilter.swift */; };
+		F95754BB8AB3D11CCD832AB16B4EA41A /* PushNotificationDelegateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A85BB039742417FEDD526AFCD372F8 /* PushNotificationDelegateObserver.swift */; };
+		F9829FA7F38A2AA53893BD714BC37D95 /* RequestParametersType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940C7AC9127F82EFB866D79F411E446 /* RequestParametersType.swift */; };
+		FA87E1BB01FB3BE64F28B49C4A755E87 /* ExponeaProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C93FA009605F8E5E5717C71DE94F5A /* ExponeaProject.swift */; };
+		FEAFAA3E5FBC6F8998E80624CFAC176F /* TelemetryEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8A4A9E8768028AC6B034F7346C14A /* TelemetryEventType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DAB4D68CF96CD1F5AE021C8E5F4BA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F314AC69DA2398C6F26C727A335C510;
+			remoteInfo = ExponeaSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0003F66CBFE7426433F8221529614DD3 /* DatabaseModel v2.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "DatabaseModel v2.xcdatamodel"; sourceTree = "<group>"; };
+		01ED7126C7B7CF685DD8B41846BE2E83 /* ExportFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExportFormat.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/ExportFormat.swift; sourceTree = "<group>"; };
+		02DEDD6F54014F1F25587DDF8A126033 /* ExponeaSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExponeaSDK-dummy.m"; sourceTree = "<group>"; };
+		063B8A710D62F527A6BC4D9B8791AF6A /* JSONConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONConvertible.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Other/JSONConvertible.swift"; sourceTree = "<group>"; };
+		07F04407B6AEC22E8E68877C45E782BF /* UIApplication+UIApplicationDelegating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+UIApplicationDelegating.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/UIApplication+UIApplicationDelegating.swift"; sourceTree = "<group>"; };
+		0813091DB522A5248E72C7B6CF70E097 /* VSAppCenterTelemetryUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VSAppCenterTelemetryUpload.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/Upload/VSAppCenterTelemetryUpload.swift; sourceTree = "<group>"; };
+		0F3ED9E5D30EE8D4529118D2FC2D3179 /* InAppMessageActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageActionButton.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/View/InAppMessageActionButton.swift; sourceTree = "<group>"; };
+		0FED5BC3D667D2EED452306B6BDB5077 /* DatabaseManager+DataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DatabaseManager+DataType.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Database/DatabaseManager+DataType.swift"; sourceTree = "<group>"; };
+		10620A85083DA4B5AEDD9D0E74DAE744 /* PushNotificationSwizzler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationSwizzler.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationSwizzler.swift"; sourceTree = "<group>"; };
+		114783853607E161C7B6A96CC5B09F2A /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Core Data/Customer.swift"; sourceTree = "<group>"; };
+		13E407B4B739F1150FD439D32B940FDE /* InAppMessagesRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagesRequest.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Requests/InAppMessagesRequest.swift; sourceTree = "<group>"; };
+		1945BFFD61E6B0DF033661BF473A8748 /* TrackingParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingParameters.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Parameters/TrackingParameters.swift"; sourceTree = "<group>"; };
+		1D6425F4B0A1F1E800D6077E2269754F /* Pods-ObjCTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjCTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E832653DEC6AD3E0BAD082357EB108C /* ServerRepository+FetchingRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ServerRepository+FetchingRepository.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Repository/ServerRepository+FetchingRepository.swift"; sourceTree = "<group>"; };
+		2211C816EF9D25DCEFD61C947BA9AC14 /* TrackingManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingManagerError.swift; path = ExponeaSDK/ExponeaSDK/Classes/Tracking/TrackingManagerError.swift; sourceTree = "<group>"; };
+		25631E5E1D85B9F1C1B0D1D7777F8060 /* TrackEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackEvent.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Core Data/TrackEvent.swift"; sourceTree = "<group>"; };
+		26AF14B0F614F4271D49D8DA08B55050 /* EventType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventType.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/EventType.swift"; sourceTree = "<group>"; };
+		2730D60E92B163946ED2D2AF71CEFE98 /* NotificationData+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationData+Properties.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Notifications/NotificationData+Properties.swift"; sourceTree = "<group>"; };
+		277AED12A29CE6CB6FA76CF908FED5E3 /* ServerRepository+TrackingRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ServerRepository+TrackingRepository.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Repository/ServerRepository+TrackingRepository.swift"; sourceTree = "<group>"; };
+		281CB84078E34CE3DCC1ED38BCC97A36 /* ServerRepository+SelfCheckRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ServerRepository+SelfCheckRepository.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Repository/ServerRepository+SelfCheckRepository.swift"; sourceTree = "<group>"; };
+		2842D6321CEBA99A1B49DC437E8F6C00 /* ErrorData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorData.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/Model/ErrorData.swift; sourceTree = "<group>"; };
+		28A0CCC9380DC80568BC80DAF4C7C13B /* DatabaseModel v4.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "DatabaseModel v4.xcdatamodel"; sourceTree = "<group>"; };
+		2A68A9C7CDFB604A840DE4679384C481 /* VSAppCenterAPIModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VSAppCenterAPIModel.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/Upload/VSAppCenterAPIModel.swift; sourceTree = "<group>"; };
+		2AC4105EE8DCEDF0BF3CBEED86BBB628 /* UIColor+FromHexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+FromHexString.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Others/UIColor+FromHexString.swift"; sourceTree = "<group>"; };
+		2B8AB2F8CF1E551F2BADE856A24CC2C5 /* DateFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFilter.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/DateFilter.swift; sourceTree = "<group>"; };
+		3193A949EB77FDECEFECC6A9FA09B853 /* UNAuthorizationStatusProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UNAuthorizationStatusProvider.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/UNAuthorizationStatusProvider.swift"; sourceTree = "<group>"; };
+		320B39115996B5A4BFE88CBAE3DF984B /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Logging/Logger.swift"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3243D64F34EEEDDF65B3996DFC5B25CE /* NSPersistentContainer+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSPersistentContainer+Bundle.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Others/NSPersistentContainer+Bundle.swift"; sourceTree = "<group>"; };
+		3286CAC8E7E0A9D40C0A18D5AFF1D798 /* Pods-ObjCTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjCTest.modulemap"; sourceTree = "<group>"; };
+		330730AE9FCEF9B9CEC259F407772492 /* URLRequest+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Debug.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Other/URLRequest+Debug.swift"; sourceTree = "<group>"; };
+		330F8A000B48D056B0C83CB619D752C4 /* InAppMessageDisplayStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageDisplayStatus.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/InAppMessage/InAppMessageDisplayStatus.swift; sourceTree = "<group>"; };
+		336501132ECF2A0FA0395B6D32139AA4 /* Swizzle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swizzle.swift; path = ExponeaSDK/ExponeaSDK/Classes/Others/Swizzle.swift; sourceTree = "<group>"; };
+		345281B5322DA80D26E600728691CA3C /* InAppMessagesCacheType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagesCacheType.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/InAppMessagesCacheType.swift; sourceTree = "<group>"; };
+		3652B476D41E791545E3346FCE466F06 /* Configuration+UserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Configuration+UserDefaults.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Configuration+UserDefaults.swift"; sourceTree = "<group>"; };
+		378AF000F4F58F08B1174DB2E54A1CE2 /* ConsentsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsentsResponse.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Responses/ConsentsResponse.swift; sourceTree = "<group>"; };
+		39DCE895BBA6459B6A53A708CF01D5A6 /* RecommendationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecommendationRequest.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Requests/RecommendationRequest.swift; sourceTree = "<group>"; };
+		3A153B779E39ABFB53DCC7C8CB9F7F44 /* Consent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Consent.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Consents/Consent.swift; sourceTree = "<group>"; };
+		3AD813E508E6D34B8C9311C8A0DC6C33 /* ExponeaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExponeaSDK.release.xcconfig; sourceTree = "<group>"; };
+		3B1191692C6CD998836AD1E2E6A35075 /* ExponeaSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ExponeaSDK-Info.plist"; sourceTree = "<group>"; };
+		3B80FEC7BBCA162CA371F6F81691F89A /* TelemetryUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelemetryUpload.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/Upload/TelemetryUpload.swift; sourceTree = "<group>"; };
+		3CA941BB3EC13AD2F5DCED495545CA42 /* FetchRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchRepository.swift; path = ExponeaSDK/ExponeaSDK/Classes/Repository/FetchRepository.swift; sourceTree = "<group>"; };
+		3D597E8A35335F10CB118E1F1C218509 /* EventFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventFilter.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/EventFilter.swift"; sourceTree = "<group>"; };
+		3F141DA222E1DF43C723DDD82A7EB3B2 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = ExponeaSDK/ExponeaSDK/Classes/Others/Reachability.swift; sourceTree = "<group>"; };
+		4005B7878D1CBAD07839A21E0947701F /* ExponeaSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExponeaSDK-prefix.pch"; sourceTree = "<group>"; };
+		4114B27CFD354F25D59CCFE4F4EA2EBD /* EventFilterConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventFilterConstraint.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/EventFilterConstraint.swift"; sourceTree = "<group>"; };
+		42EFD815B11826C3A06A00F52AC15F60 /* FlushableObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlushableObject.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Core Data/FlushableObject.swift"; sourceTree = "<group>"; };
+		4B986CD411F1EFF0DD898582ABE40715 /* Swizzler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swizzler.swift; path = ExponeaSDK/ExponeaSDK/Classes/Others/Swizzler.swift; sourceTree = "<group>"; };
+		4BDFAB40D47110FDD0F58F4E772B7FB4 /* ExponeaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ExponeaSDK.framework; path = ExponeaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCA2BFF5E73AB8AA6AD271054582324 /* NotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationData.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Notifications/NotificationData.swift"; sourceTree = "<group>"; };
+		4CDF312122CE3CAFDF05ACD6D778DB58 /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Other/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		4E062E1A3DA195DA5A22D4896851A01B /* DeviceProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceProperties.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/DeviceProperties.swift; sourceTree = "<group>"; };
+		4E27EF31D6AFFECD9D60B57133C3CB93 /* Authorization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authorization.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Networking/Authorization.swift"; sourceTree = "<group>"; };
+		4F1CF8F22088A1510775DC10270D904F /* InAppMessageSlideInView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageSlideInView.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/View/InAppMessageSlideInView.swift; sourceTree = "<group>"; };
+		520338A428764DF31601F02C41911D74 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Configuration.swift"; sourceTree = "<group>"; };
+		5509D86C31D9F0CB74D0878F6EAAC282 /* PushSelfCheckRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushSelfCheckRequest.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Requests/PushSelfCheckRequest.swift; sourceTree = "<group>"; };
+		567E05A4CEB7877337A35220275E1247 /* DatabaseManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseManagerType.swift; path = ExponeaSDK/ExponeaSDK/Classes/Database/DatabaseManagerType.swift; sourceTree = "<group>"; };
+		57EE9D40C81FCBE905D9D98105792D53 /* Pods_ObjCTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ObjCTest.framework; path = "Pods-ObjCTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAB6560E8E701EEAB12459B06A61082 /* DatabaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseManager.swift; path = ExponeaSDK/ExponeaSDK/Classes/Database/DatabaseManager.swift; sourceTree = "<group>"; };
+		5F4A551F8D5A07F4B76CDB6D127F9BC2 /* DispatchQueue+OnceTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+OnceTracker.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Others/DispatchQueue+OnceTracker.swift"; sourceTree = "<group>"; };
+		610A651B1480A324A3F3BFD52591C37C /* TelemetryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelemetryStorage.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/Storage/TelemetryStorage.swift; sourceTree = "<group>"; };
+		63DE599F290C98FD83C1C42CD6978520 /* DatabaseModel v6.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "DatabaseModel v6.xcdatamodel"; sourceTree = "<group>"; };
+		66E132EE991A97AF8E9B0C974E485537 /* DataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataType.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/DataType.swift"; sourceTree = "<group>"; };
+		682775050662463F13EBFC6A7EE4617A /* InAppMessageDisplayStateStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageDisplayStateStore.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/InAppMessageDisplayStateStore.swift; sourceTree = "<group>"; };
+		6B618EE719411E414F880A25662F1CC2 /* ExponeaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExponeaSDK.debug.xcconfig; sourceTree = "<group>"; };
+		6D23AA57DA802C1D659860FFEE1D353E /* InAppMessagePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagePresenter.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/InAppMessagePresenter.swift; sourceTree = "<group>"; };
+		6F12A304D431915AE9221891C3455545 /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Logging/LogLevel.swift"; sourceTree = "<group>"; };
+		738118C5713A25E8CFD717152AFE4FD3 /* DatabaseModel.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = DatabaseModel.xcdatamodel; sourceTree = "<group>"; };
+		7577A4565ED39C2941F025D497B875EA /* PushNotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationManager.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationManager.swift"; sourceTree = "<group>"; };
+		760329DB3F8F545B8ECAE86142177D6B /* Recommendation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recommendation.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Recommendation/Recommendation.swift; sourceTree = "<group>"; };
+		78158A5452C7273611B5A0AE839C0DB8 /* TelemetryUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelemetryUtility.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/TelemetryUtility.swift; sourceTree = "<group>"; };
+		79E06802B3A31B81EDF5088DDD63D0BB /* PushNotificationParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationParser.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationParser.swift"; sourceTree = "<group>"; };
+		7A27A49D631BEA9DA9E8D9658859EE1F /* Exponea+Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Exponea+Configuration.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Exponea+Configuration.swift"; sourceTree = "<group>"; };
+		7B312564E7BB2A56AE8EC63389A91B1F /* RecommendationOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecommendationOptions.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Recommendation/RecommendationOptions.swift; sourceTree = "<group>"; };
+		7BFA6A9EBF4E479F0D59690C4C2C6682 /* Configuration+Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Configuration+Validation.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Configuration+Validation.swift"; sourceTree = "<group>"; };
+		7D35D5C639E17F1CB77D6F9976587AA7 /* CampaignData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CampaignData.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/CampaignData.swift"; sourceTree = "<group>"; };
+		7DBE2EB02D2185CEA8F63CDBCD3930F2 /* InAppMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessage.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/InAppMessage/InAppMessage.swift; sourceTree = "<group>"; };
+		7DEBB514E5100DB0CCF33384143AF28B /* Pods-ObjCTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCTest-Info.plist"; sourceTree = "<group>"; };
+		7E8B3A168EC7DF8D9F663E6C2E6C2BDC /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Constants.swift"; sourceTree = "<group>"; };
+		81EAB48B2538371DB9BEA1A5898E399B /* DatabaseModel v3.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "DatabaseModel v3.xcdatamodel"; sourceTree = "<group>"; };
+		821B3E9F9DB1B48CAB801E1F5CDE3884 /* ExponeaInternal+Fetching.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ExponeaInternal+Fetching.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/ExponeaInternal+Fetching.swift"; sourceTree = "<group>"; };
+		83004543A6CB8B782949A55814B7C545 /* Pods-ObjCTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjCTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		83496FEBB45DD17FE9DD62C0D462B5D1 /* PushNotificationManager+UIResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PushNotificationManager+UIResponder.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationManager+UIResponder.swift"; sourceTree = "<group>"; };
+		85B92D88383BCC459A43646979C09CFA /* UNUserNotificationCenter+UNUserNotificationCenterDelegating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UNUserNotificationCenter+UNUserNotificationCenterDelegating.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/UNUserNotificationCenter+UNUserNotificationCenterDelegating.swift"; sourceTree = "<group>"; };
+		880C488C49802BF987B4B5506258A35E /* TrackingObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingObject.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/TrackingObject.swift"; sourceTree = "<group>"; };
+		8867D0DDC45CA2D3FEFDA3832D09E78D /* PushNotificationReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationReceiver.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationReceiver.swift"; sourceTree = "<group>"; };
+		88A85BB039742417FEDD526AFCD372F8 /* PushNotificationDelegateObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationDelegateObserver.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationDelegateObserver.swift"; sourceTree = "<group>"; };
+		89034128B1C01D33015177B15013F651 /* FlushingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlushingMode.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/FlushingMode.swift; sourceTree = "<group>"; };
+		89C8D40C9FBE8838E79BB2D7E2204F06 /* PushOpenedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushOpenedData.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushOpenedData.swift"; sourceTree = "<group>"; };
+		8B061FFE8EE2324F76A063447091C05F /* PushNotificationManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationManagerType.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationManagerType.swift"; sourceTree = "<group>"; };
+		8B9ED42FF065BBD9ED511F17EBEB14F1 /* ServerRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerRepository.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Repository/ServerRepository.swift"; sourceTree = "<group>"; };
+		8CD8A4A9E8768028AC6B034F7346C14A /* TelemetryEventType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelemetryEventType.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/Model/TelemetryEventType.swift; sourceTree = "<group>"; };
+		8D4456616FEB29ACE2C3259115111DF9 /* String+URLValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+URLValidation.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Others/String+URLValidation.swift"; sourceTree = "<group>"; };
+		8E5E92779A098AC52B8E3C3F336D447B /* NSManagedObjectContext+Perform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Perform.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Others/NSManagedObjectContext+Perform.swift"; sourceTree = "<group>"; };
+		8F0F98DD0FC0788CF514BA59FEAB6163 /* Pods-ObjCTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjCTest-umbrella.h"; sourceTree = "<group>"; };
+		930435A0ADC81A766E7C0B69F001779D /* ExponeaAppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExponeaAppDelegate.swift; path = ExponeaSDK/ExponeaSDK/Classes/ExponeaAppDelegate.swift; sourceTree = "<group>"; };
+		94A655C013DA4A4EDC70D3F50E64B33B /* InAppMessageDialogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageDialogView.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/View/InAppMessageDialogView.swift; sourceTree = "<group>"; };
+		94CD579F1C00888313FF222B0B3112F4 /* FlushingManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlushingManagerType.swift; path = ExponeaSDK/ExponeaSDK/Classes/Flushing/FlushingManagerType.swift; sourceTree = "<group>"; };
+		94D5F4C69868E09AEE71C40CA086FF2B /* ExponeaSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ExponeaSDK.modulemap; sourceTree = "<group>"; };
+		98F43238FE64EF018C5913B18E2432B5 /* PushNotificationSelectors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationSelectors.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationSelectors.swift"; sourceTree = "<group>"; };
+		9940C7AC9127F82EFB866D79F411E446 /* RequestParametersType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestParametersType.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Parameters/RequestParametersType.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F280C74E9C88917929DD65C808D53DF /* TrackCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackCustomer.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Core Data/TrackCustomer.swift"; sourceTree = "<group>"; };
+		9F664D07314ABFDB45F61C162C3A2F91 /* InAppMessagesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagesManager.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/InAppMessagesManager.swift; sourceTree = "<group>"; };
+		A2E3F17DC4FF512484E90A33A77B51DC /* UrlOpenerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UrlOpenerType.swift; path = ExponeaSDK/ExponeaSDK/Classes/Deeplinking/UrlOpenerType.swift; sourceTree = "<group>"; };
+		A5D831397B2F5D36FAF6A0BA73E944B6 /* Pods-ObjCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A66EC4AF1C65F08C355A2E280B9FBF20 /* StringOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringOperators.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/Operators/StringOperators.swift"; sourceTree = "<group>"; };
+		A95E2E3846E01245B985729BFF08FABD /* PushNotificationManager+NSObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PushNotificationManager+NSObject.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationManager+NSObject.swift"; sourceTree = "<group>"; };
+		A9EBC08A716B78464422868C406232D7 /* InAppMessageAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageAlertView.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/View/InAppMessageAlertView.swift; sourceTree = "<group>"; };
+		AC82EE63053CFA37AE383775C9580575 /* InAppMessagesManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagesManagerType.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/InAppMessagesManagerType.swift; sourceTree = "<group>"; };
+		B08EBBCB9D52207C537462831AA2CD78 /* objc_tryCatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = objc_tryCatch.m; path = "ExponeaSDK/ExponeaSDK/Supporting Files/objc_tryCatch.m"; sourceTree = "<group>"; };
+		B267FB07FEA1EFA6E1D9277A42248F40 /* TrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingManager.swift; path = ExponeaSDK/ExponeaSDK/Classes/Tracking/TrackingManager.swift; sourceTree = "<group>"; };
+		B31C07A0AF85B95801213128644B4658 /* JSON+SnakeCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSON+SnakeCase.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Other/JSON+SnakeCase.swift"; sourceTree = "<group>"; };
+		B3B24D4A3CC2647779798441FADBD707 /* Pods-ObjCTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjCTest-frameworks.sh"; sourceTree = "<group>"; };
+		B553B40DB492D59C52C0857E225B7C32 /* ExponeaInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExponeaInternal.swift; path = ExponeaSDK/ExponeaSDK/Classes/ExponeaInternal.swift; sourceTree = "<group>"; };
+		B87A709D2B60566EDAACC002FF1DE083 /* NumberOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberOperators.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/Operators/NumberOperators.swift"; sourceTree = "<group>"; };
+		BBA1187EFFCDF62781370B9836D5156F /* InAppMessagePresenterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagePresenterType.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/InAppMessagePresenterType.swift; sourceTree = "<group>"; };
+		BBC144B7C2C742339789A0F485D4C28E /* BooleanOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanOperators.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/Operators/BooleanOperators.swift"; sourceTree = "<group>"; };
+		BC354AA682FE94E6046A236DE8E7AF25 /* InAppMessageTrackingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageTrackingDelegate.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/InAppMessageTrackingDelegate.swift; sourceTree = "<group>"; };
+		BD8658F08D00E8C19961F8AE48F03AE1 /* DatabaseModel v5.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "DatabaseModel v5.xcdatamodel"; sourceTree = "<group>"; };
+		BE87010F57C806D3ABDEF2A3EE0622AB /* EventFilterOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventFilterOperator.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/EventFilterOperator.swift"; sourceTree = "<group>"; };
+		BF157B19D06A97DB0E0A752D541FC480 /* CrashLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashLog.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/Model/CrashLog.swift; sourceTree = "<group>"; };
+		C0C93FA009605F8E5E5717C71DE94F5A /* ExponeaProject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExponeaProject.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Networking/ExponeaProject.swift"; sourceTree = "<group>"; };
+		C5341CC9278243341F255A1CC6032C2F /* RecommendationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecommendationResponse.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Responses/RecommendationResponse.swift; sourceTree = "<group>"; };
+		C60440916BBD23E7E8B655172747BC32 /* ConsentSources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsentSources.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Consents/ConsentSources.swift; sourceTree = "<group>"; };
+		C7556BFAE45D3E3E2BF70F7136D6C489 /* Exponea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponea.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Exponea.swift"; sourceTree = "<group>"; };
+		C7D1CAAAACC84B15B8C5179495024F03 /* Pods-ObjCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCTest.release.xcconfig"; sourceTree = "<group>"; };
+		C921B4A7523356BD5DE9E139B544F58D /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Networking/HTTPMethod.swift"; sourceTree = "<group>"; };
+		CB2D319F20BC1ED16B1854FB0538C726 /* DatabaseManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseManagerError.swift; path = ExponeaSDK/ExponeaSDK/Classes/Database/DatabaseManagerError.swift; sourceTree = "<group>"; };
+		CEF9F19EDB47FCFFD6073DC83C96F75D /* FileTelemetryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileTelemetryStorage.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/Storage/FileTelemetryStorage.swift; sourceTree = "<group>"; };
+		D3062AA7755E59ECFE5417A8FF13A859 /* RepositoryError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryError.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Repository/RepositoryError.swift"; sourceTree = "<group>"; };
+		D45C3124F8EEE0EB842F9BD6A2311F03 /* ExponeaType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExponeaType.swift; path = ExponeaSDK/ExponeaSDK/Classes/ExponeaType.swift; sourceTree = "<group>"; };
+		D460012006BCD9E495456A8D87772DC5 /* DataType+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DataType+Codable.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Models/DataType+Codable.swift"; sourceTree = "<group>"; };
+		D50A3BBFE22E188B50318B79ADE96009 /* MultipleErrorResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleErrorResponse.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Responses/MultipleErrorResponse.swift"; sourceTree = "<group>"; };
+		D6022D069E1B2F269654741ED8B5099E /* TrackingRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingRepository.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Repository/TrackingRepository.swift"; sourceTree = "<group>"; };
+		D6A720833FBC0EF44F50779569063C11 /* Routes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Routes.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Networking/Routes.swift"; sourceTree = "<group>"; };
+		D6C7B24B2E1CB36780EDDE68D22C2103 /* EventFilterConstraint+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EventFilterConstraint+Operators.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/EventFilterConstraint+Operators.swift"; sourceTree = "<group>"; };
+		D794068F0D2281B24FFB43A47A100E7A /* PushNotificationSelfCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushNotificationSelfCheck.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Push Notifications/PushNotificationSelfCheck.swift"; sourceTree = "<group>"; };
+		DADDF8A165A7B3E3EF89E81DB444BD38 /* KeyValueItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyValueItem.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Core Data/KeyValueItem.swift"; sourceTree = "<group>"; };
+		DB3EA18E3E0AAD721DB40468DB934BF2 /* Data+TokenString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+TokenString.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/Others/Data+TokenString.swift"; sourceTree = "<group>"; };
+		DCB64B797B36E5030CC7B670C036BDD9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Networking/Result.swift"; sourceTree = "<group>"; };
+		DDEA76498C6A0FCBC56C4C942156183E /* Pods-ObjCTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjCTest-dummy.m"; sourceTree = "<group>"; };
+		E06F54119BD5CDA493747C3A4528BFBB /* GenericOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericOperators.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/Operators/GenericOperators.swift"; sourceTree = "<group>"; };
+		E1072C43E70A3F2001A592559E69205A /* RequestFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestFactory.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Repository/RequestFactory.swift"; sourceTree = "<group>"; };
+		E137FF7CC3428C1ACAE39DD2CEB76DE7 /* NSManagedObjectWithContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSManagedObjectWithContext.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Core Data/NSManagedObjectWithContext.swift"; sourceTree = "<group>"; };
+		E1EAE117B7DC7ACA3446C9ACAE5FE8CC /* URLResponse+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLResponse+Debug.swift"; path = "ExponeaSDK/ExponeaSDK-Shared/Other/URLResponse+Debug.swift"; sourceTree = "<group>"; };
+		E27FF6730C4B10009A7F2D5D0BC5A993 /* FlushingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlushingManager.swift; path = ExponeaSDK/ExponeaSDK/Classes/Flushing/FlushingManager.swift; sourceTree = "<group>"; };
+		E36B22E41EA10280ABF1FAF9E2C2CEC8 /* EventFilterAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventFilterAttribute.swift; path = "ExponeaSDK/ExponeaSDK/Classes/Models/Event Filter/EventFilterAttribute.swift"; sourceTree = "<group>"; };
+		E3B4BBD4E36ADE92D8163E7D63EB8ED6 /* objc_tryCatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objc_tryCatch.h; path = "ExponeaSDK/ExponeaSDK/Supporting Files/objc_tryCatch.h"; sourceTree = "<group>"; };
+		E55ED85DAD2AB5C1B8F6F8C9C9308D72 /* TelemetryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelemetryManager.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/TelemetryManager.swift; sourceTree = "<group>"; };
+		E606A13617313BBE04A9F460FAD343A6 /* TokenTrackFrequency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenTrackFrequency.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/TokenTrackFrequency.swift"; sourceTree = "<group>"; };
+		E9A505899D999032050550D7482DC81F /* ExponeaSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExponeaSDK-umbrella.h"; sourceTree = "<group>"; };
+		EB8C20BAFB49DED96F0D8B1D0CF6AB0B /* RepositoryType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryType.swift; path = ExponeaSDK/ExponeaSDK/Classes/Repository/RepositoryType.swift; sourceTree = "<group>"; };
+		EC17299B0A6C80F8111381912A516C8B /* BuildConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuildConfiguration.swift; path = ExponeaSDK/ExponeaSDK/Classes/Others/BuildConfiguration.swift; sourceTree = "<group>"; };
+		EC3C5E1B7525D2D8DCDC4733B135F930 /* InAppMessagesCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagesCache.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/InAppMessagesCache.swift; sourceTree = "<group>"; };
+		ECD57B2192351B29B76F692CE4112FB8 /* InAppMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageView.swift; path = ExponeaSDK/ExponeaSDK/Classes/InAppMessages/View/InAppMessageView.swift; sourceTree = "<group>"; };
+		EE5D438292BCD13A690B37DC3F834AFB /* SessionManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManagerType.swift; path = ExponeaSDK/ExponeaSDK/Classes/Sessions/SessionManagerType.swift; sourceTree = "<group>"; };
+		F2634593428344A983F56DCCFD118DB3 /* ExponeaInternal+Tracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ExponeaInternal+Tracking.swift"; path = "ExponeaSDK/ExponeaSDK/Classes/ExponeaInternal+Tracking.swift"; sourceTree = "<group>"; };
+		F4C72C5CDE768BEA3FD7FE590AD72FC0 /* ExponeaNotificationAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExponeaNotificationAction.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Notifications/ExponeaNotificationAction.swift"; sourceTree = "<group>"; };
+		F9010365D3711A17FC1B846CDF33E660 /* InAppMessagePayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagePayload.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/InAppMessage/InAppMessagePayload.swift; sourceTree = "<group>"; };
+		F9B1CEF9A3784AAC4B6313CD74D178DC /* InAppMessagesResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagesResponse.swift; path = ExponeaSDK/ExponeaSDK/Classes/Models/Responses/InAppMessagesResponse.swift; sourceTree = "<group>"; };
+		F9D6B37D3FD64A5E0818280BE768D2B7 /* UrlOpener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UrlOpener.swift; path = ExponeaSDK/ExponeaSDK/Classes/Deeplinking/UrlOpener.swift; sourceTree = "<group>"; };
+		FAFF382C90883E2A8BA2CC6AB46BBD53 /* SelfCheckRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelfCheckRepository.swift; path = ExponeaSDK/ExponeaSDK/Classes/Repository/SelfCheckRepository.swift; sourceTree = "<group>"; };
+		FB5730AC0FF4C41A3EBA00E815B48C86 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = ExponeaSDK/ExponeaSDK/Classes/Sessions/SessionManager.swift; sourceTree = "<group>"; };
+		FD4FC8CF8E4083E085BD342BC1197BE5 /* ExponeaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExponeaError.swift; path = "ExponeaSDK/ExponeaSDK-Shared/ExponeaError.swift"; sourceTree = "<group>"; };
+		FE5236F8C8A0B6D9D6A1BDA53D880D8B /* CrashManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashManager.swift; path = ExponeaSDK/ExponeaSDK/Classes/Telemetry/CrashManager.swift; sourceTree = "<group>"; };
+		FFBCC86E147BD73713725DB5E6B5B5C5 /* TrackingManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingManagerType.swift; path = ExponeaSDK/ExponeaSDK/Classes/Tracking/TrackingManagerType.swift; sourceTree = "<group>"; };
+		FFE86243EFC0B57BFBE461C341167263 /* ExponeaNotificationActionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExponeaNotificationActionType.swift; path = "ExponeaSDK/ExponeaSDK-Shared/Models/Notifications/ExponeaNotificationActionType.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC1592316AF9E3F5F96A16A5FF639DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF8E0C7AAEE64898A90089AEEC5AB03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0C7AC29C667C519544A793C613F8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC3B6E189B15DDA9CA289F215EB6753 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A9EB56394041F36487E51C7240F723 /* ExponeaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4E27EF31D6AFFECD9D60B57133C3CB93 /* Authorization.swift */,
+				BBC144B7C2C742339789A0F485D4C28E /* BooleanOperators.swift */,
+				EC17299B0A6C80F8111381912A516C8B /* BuildConfiguration.swift */,
+				7D35D5C639E17F1CB77D6F9976587AA7 /* CampaignData.swift */,
+				520338A428764DF31601F02C41911D74 /* Configuration.swift */,
+				3652B476D41E791545E3346FCE466F06 /* Configuration+UserDefaults.swift */,
+				7BFA6A9EBF4E479F0D59690C4C2C6682 /* Configuration+Validation.swift */,
+				3A153B779E39ABFB53DCC7C8CB9F7F44 /* Consent.swift */,
+				C60440916BBD23E7E8B655172747BC32 /* ConsentSources.swift */,
+				378AF000F4F58F08B1174DB2E54A1CE2 /* ConsentsResponse.swift */,
+				7E8B3A168EC7DF8D9F663E6C2E6C2BDC /* Constants.swift */,
+				BF157B19D06A97DB0E0A752D541FC480 /* CrashLog.swift */,
+				FE5236F8C8A0B6D9D6A1BDA53D880D8B /* CrashManager.swift */,
+				114783853607E161C7B6A96CC5B09F2A /* Customer.swift */,
+				DB3EA18E3E0AAD721DB40468DB934BF2 /* Data+TokenString.swift */,
+				5DAB6560E8E701EEAB12459B06A61082 /* DatabaseManager.swift */,
+				0FED5BC3D667D2EED452306B6BDB5077 /* DatabaseManager+DataType.swift */,
+				CB2D319F20BC1ED16B1854FB0538C726 /* DatabaseManagerError.swift */,
+				567E05A4CEB7877337A35220275E1247 /* DatabaseManagerType.swift */,
+				66E132EE991A97AF8E9B0C974E485537 /* DataType.swift */,
+				D460012006BCD9E495456A8D87772DC5 /* DataType+Codable.swift */,
+				2B8AB2F8CF1E551F2BADE856A24CC2C5 /* DateFilter.swift */,
+				4E062E1A3DA195DA5A22D4896851A01B /* DeviceProperties.swift */,
+				5F4A551F8D5A07F4B76CDB6D127F9BC2 /* DispatchQueue+OnceTracker.swift */,
+				2842D6321CEBA99A1B49DC437E8F6C00 /* ErrorData.swift */,
+				3D597E8A35335F10CB118E1F1C218509 /* EventFilter.swift */,
+				E36B22E41EA10280ABF1FAF9E2C2CEC8 /* EventFilterAttribute.swift */,
+				4114B27CFD354F25D59CCFE4F4EA2EBD /* EventFilterConstraint.swift */,
+				D6C7B24B2E1CB36780EDDE68D22C2103 /* EventFilterConstraint+Operators.swift */,
+				BE87010F57C806D3ABDEF2A3EE0622AB /* EventFilterOperator.swift */,
+				26AF14B0F614F4271D49D8DA08B55050 /* EventType.swift */,
+				C7556BFAE45D3E3E2BF70F7136D6C489 /* Exponea.swift */,
+				7A27A49D631BEA9DA9E8D9658859EE1F /* Exponea+Configuration.swift */,
+				930435A0ADC81A766E7C0B69F001779D /* ExponeaAppDelegate.swift */,
+				FD4FC8CF8E4083E085BD342BC1197BE5 /* ExponeaError.swift */,
+				B553B40DB492D59C52C0857E225B7C32 /* ExponeaInternal.swift */,
+				821B3E9F9DB1B48CAB801E1F5CDE3884 /* ExponeaInternal+Fetching.swift */,
+				F2634593428344A983F56DCCFD118DB3 /* ExponeaInternal+Tracking.swift */,
+				F4C72C5CDE768BEA3FD7FE590AD72FC0 /* ExponeaNotificationAction.swift */,
+				FFE86243EFC0B57BFBE461C341167263 /* ExponeaNotificationActionType.swift */,
+				C0C93FA009605F8E5E5717C71DE94F5A /* ExponeaProject.swift */,
+				D45C3124F8EEE0EB842F9BD6A2311F03 /* ExponeaType.swift */,
+				01ED7126C7B7CF685DD8B41846BE2E83 /* ExportFormat.swift */,
+				3CA941BB3EC13AD2F5DCED495545CA42 /* FetchRepository.swift */,
+				CEF9F19EDB47FCFFD6073DC83C96F75D /* FileTelemetryStorage.swift */,
+				42EFD815B11826C3A06A00F52AC15F60 /* FlushableObject.swift */,
+				E27FF6730C4B10009A7F2D5D0BC5A993 /* FlushingManager.swift */,
+				94CD579F1C00888313FF222B0B3112F4 /* FlushingManagerType.swift */,
+				89034128B1C01D33015177B15013F651 /* FlushingMode.swift */,
+				E06F54119BD5CDA493747C3A4528BFBB /* GenericOperators.swift */,
+				C921B4A7523356BD5DE9E139B544F58D /* HTTPMethod.swift */,
+				7DBE2EB02D2185CEA8F63CDBCD3930F2 /* InAppMessage.swift */,
+				0F3ED9E5D30EE8D4529118D2FC2D3179 /* InAppMessageActionButton.swift */,
+				A9EBC08A716B78464422868C406232D7 /* InAppMessageAlertView.swift */,
+				94A655C013DA4A4EDC70D3F50E64B33B /* InAppMessageDialogView.swift */,
+				682775050662463F13EBFC6A7EE4617A /* InAppMessageDisplayStateStore.swift */,
+				330F8A000B48D056B0C83CB619D752C4 /* InAppMessageDisplayStatus.swift */,
+				F9010365D3711A17FC1B846CDF33E660 /* InAppMessagePayload.swift */,
+				6D23AA57DA802C1D659860FFEE1D353E /* InAppMessagePresenter.swift */,
+				BBA1187EFFCDF62781370B9836D5156F /* InAppMessagePresenterType.swift */,
+				EC3C5E1B7525D2D8DCDC4733B135F930 /* InAppMessagesCache.swift */,
+				345281B5322DA80D26E600728691CA3C /* InAppMessagesCacheType.swift */,
+				4F1CF8F22088A1510775DC10270D904F /* InAppMessageSlideInView.swift */,
+				9F664D07314ABFDB45F61C162C3A2F91 /* InAppMessagesManager.swift */,
+				AC82EE63053CFA37AE383775C9580575 /* InAppMessagesManagerType.swift */,
+				13E407B4B739F1150FD439D32B940FDE /* InAppMessagesRequest.swift */,
+				F9B1CEF9A3784AAC4B6313CD74D178DC /* InAppMessagesResponse.swift */,
+				BC354AA682FE94E6046A236DE8E7AF25 /* InAppMessageTrackingDelegate.swift */,
+				ECD57B2192351B29B76F692CE4112FB8 /* InAppMessageView.swift */,
+				B31C07A0AF85B95801213128644B4658 /* JSON+SnakeCase.swift */,
+				063B8A710D62F527A6BC4D9B8791AF6A /* JSONConvertible.swift */,
+				DADDF8A165A7B3E3EF89E81DB444BD38 /* KeyValueItem.swift */,
+				320B39115996B5A4BFE88CBAE3DF984B /* Logger.swift */,
+				6F12A304D431915AE9221891C3455545 /* LogLevel.swift */,
+				D50A3BBFE22E188B50318B79ADE96009 /* MultipleErrorResponse.swift */,
+				4CCA2BFF5E73AB8AA6AD271054582324 /* NotificationData.swift */,
+				2730D60E92B163946ED2D2AF71CEFE98 /* NotificationData+Properties.swift */,
+				8E5E92779A098AC52B8E3C3F336D447B /* NSManagedObjectContext+Perform.swift */,
+				E137FF7CC3428C1ACAE39DD2CEB76DE7 /* NSManagedObjectWithContext.swift */,
+				3243D64F34EEEDDF65B3996DFC5B25CE /* NSPersistentContainer+Bundle.swift */,
+				B87A709D2B60566EDAACC002FF1DE083 /* NumberOperators.swift */,
+				E3B4BBD4E36ADE92D8163E7D63EB8ED6 /* objc_tryCatch.h */,
+				B08EBBCB9D52207C537462831AA2CD78 /* objc_tryCatch.m */,
+				88A85BB039742417FEDD526AFCD372F8 /* PushNotificationDelegateObserver.swift */,
+				7577A4565ED39C2941F025D497B875EA /* PushNotificationManager.swift */,
+				A95E2E3846E01245B985729BFF08FABD /* PushNotificationManager+NSObject.swift */,
+				83496FEBB45DD17FE9DD62C0D462B5D1 /* PushNotificationManager+UIResponder.swift */,
+				8B061FFE8EE2324F76A063447091C05F /* PushNotificationManagerType.swift */,
+				79E06802B3A31B81EDF5088DDD63D0BB /* PushNotificationParser.swift */,
+				8867D0DDC45CA2D3FEFDA3832D09E78D /* PushNotificationReceiver.swift */,
+				98F43238FE64EF018C5913B18E2432B5 /* PushNotificationSelectors.swift */,
+				D794068F0D2281B24FFB43A47A100E7A /* PushNotificationSelfCheck.swift */,
+				10620A85083DA4B5AEDD9D0E74DAE744 /* PushNotificationSwizzler.swift */,
+				89C8D40C9FBE8838E79BB2D7E2204F06 /* PushOpenedData.swift */,
+				5509D86C31D9F0CB74D0878F6EAAC282 /* PushSelfCheckRequest.swift */,
+				3F141DA222E1DF43C723DDD82A7EB3B2 /* Reachability.swift */,
+				760329DB3F8F545B8ECAE86142177D6B /* Recommendation.swift */,
+				7B312564E7BB2A56AE8EC63389A91B1F /* RecommendationOptions.swift */,
+				39DCE895BBA6459B6A53A708CF01D5A6 /* RecommendationRequest.swift */,
+				C5341CC9278243341F255A1CC6032C2F /* RecommendationResponse.swift */,
+				D3062AA7755E59ECFE5417A8FF13A859 /* RepositoryError.swift */,
+				EB8C20BAFB49DED96F0D8B1D0CF6AB0B /* RepositoryType.swift */,
+				E1072C43E70A3F2001A592559E69205A /* RequestFactory.swift */,
+				9940C7AC9127F82EFB866D79F411E446 /* RequestParametersType.swift */,
+				DCB64B797B36E5030CC7B670C036BDD9 /* Result.swift */,
+				D6A720833FBC0EF44F50779569063C11 /* Routes.swift */,
+				FAFF382C90883E2A8BA2CC6AB46BBD53 /* SelfCheckRepository.swift */,
+				8B9ED42FF065BBD9ED511F17EBEB14F1 /* ServerRepository.swift */,
+				1E832653DEC6AD3E0BAD082357EB108C /* ServerRepository+FetchingRepository.swift */,
+				281CB84078E34CE3DCC1ED38BCC97A36 /* ServerRepository+SelfCheckRepository.swift */,
+				277AED12A29CE6CB6FA76CF908FED5E3 /* ServerRepository+TrackingRepository.swift */,
+				FB5730AC0FF4C41A3EBA00E815B48C86 /* SessionManager.swift */,
+				EE5D438292BCD13A690B37DC3F834AFB /* SessionManagerType.swift */,
+				8D4456616FEB29ACE2C3259115111DF9 /* String+URLValidation.swift */,
+				A66EC4AF1C65F08C355A2E280B9FBF20 /* StringOperators.swift */,
+				336501132ECF2A0FA0395B6D32139AA4 /* Swizzle.swift */,
+				4B986CD411F1EFF0DD898582ABE40715 /* Swizzler.swift */,
+				8CD8A4A9E8768028AC6B034F7346C14A /* TelemetryEventType.swift */,
+				E55ED85DAD2AB5C1B8F6F8C9C9308D72 /* TelemetryManager.swift */,
+				610A651B1480A324A3F3BFD52591C37C /* TelemetryStorage.swift */,
+				3B80FEC7BBCA162CA371F6F81691F89A /* TelemetryUpload.swift */,
+				78158A5452C7273611B5A0AE839C0DB8 /* TelemetryUtility.swift */,
+				E606A13617313BBE04A9F460FAD343A6 /* TokenTrackFrequency.swift */,
+				9F280C74E9C88917929DD65C808D53DF /* TrackCustomer.swift */,
+				25631E5E1D85B9F1C1B0D1D7777F8060 /* TrackEvent.swift */,
+				B267FB07FEA1EFA6E1D9277A42248F40 /* TrackingManager.swift */,
+				2211C816EF9D25DCEFD61C947BA9AC14 /* TrackingManagerError.swift */,
+				FFBCC86E147BD73713725DB5E6B5B5C5 /* TrackingManagerType.swift */,
+				880C488C49802BF987B4B5506258A35E /* TrackingObject.swift */,
+				1945BFFD61E6B0DF033661BF473A8748 /* TrackingParameters.swift */,
+				D6022D069E1B2F269654741ED8B5099E /* TrackingRepository.swift */,
+				07F04407B6AEC22E8E68877C45E782BF /* UIApplication+UIApplicationDelegating.swift */,
+				2AC4105EE8DCEDF0BF3CBEED86BBB628 /* UIColor+FromHexString.swift */,
+				4CDF312122CE3CAFDF05ACD6D778DB58 /* UIImage+Gif.swift */,
+				3193A949EB77FDECEFECC6A9FA09B853 /* UNAuthorizationStatusProvider.swift */,
+				85B92D88383BCC459A43646979C09CFA /* UNUserNotificationCenter+UNUserNotificationCenterDelegating.swift */,
+				F9D6B37D3FD64A5E0818280BE768D2B7 /* UrlOpener.swift */,
+				A2E3F17DC4FF512484E90A33A77B51DC /* UrlOpenerType.swift */,
+				330730AE9FCEF9B9CEC259F407772492 /* URLRequest+Debug.swift */,
+				E1EAE117B7DC7ACA3446C9ACAE5FE8CC /* URLResponse+Debug.swift */,
+				2A68A9C7CDFB604A840DE4679384C481 /* VSAppCenterAPIModel.swift */,
+				0813091DB522A5248E72C7B6CF70E097 /* VSAppCenterTelemetryUpload.swift */,
+				AC44B0D2CFCA26197C7D8ADAB1A72D1A /* Resources */,
+				E4DB695673FA32D743B62E15125632A6 /* Support Files */,
+			);
+			name = ExponeaSDK;
+			path = ExponeaSDK;
+			sourceTree = "<group>";
+		};
+		65031A3DA439504D41E85B7D5DD8A144 /* Pods-ObjCTest */ = {
+			isa = PBXGroup;
+			children = (
+				3286CAC8E7E0A9D40C0A18D5AFF1D798 /* Pods-ObjCTest.modulemap */,
+				1D6425F4B0A1F1E800D6077E2269754F /* Pods-ObjCTest-acknowledgements.markdown */,
+				83004543A6CB8B782949A55814B7C545 /* Pods-ObjCTest-acknowledgements.plist */,
+				DDEA76498C6A0FCBC56C4C942156183E /* Pods-ObjCTest-dummy.m */,
+				B3B24D4A3CC2647779798441FADBD707 /* Pods-ObjCTest-frameworks.sh */,
+				7DEBB514E5100DB0CCF33384143AF28B /* Pods-ObjCTest-Info.plist */,
+				8F0F98DD0FC0788CF514BA59FEAB6163 /* Pods-ObjCTest-umbrella.h */,
+				A5D831397B2F5D36FAF6A0BA73E944B6 /* Pods-ObjCTest.debug.xcconfig */,
+				C7D1CAAAACC84B15B8C5179495024F03 /* Pods-ObjCTest.release.xcconfig */,
+			);
+			name = "Pods-ObjCTest";
+			path = "Target Support Files/Pods-ObjCTest";
+			sourceTree = "<group>";
+		};
+		6C2E9107F160EB71D890768CA612EB95 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65031A3DA439504D41E85B7D5DD8A144 /* Pods-ObjCTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC44B0D2CFCA26197C7D8ADAB1A72D1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D68A0A88ECC9F2B7C184537F443CC8C9 /* DatabaseModel.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BB2CABEAE8B0016814D135DD3D184039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44A9EB56394041F36487E51C7240F723 /* ExponeaSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BB2CABEAE8B0016814D135DD3D184039 /* Pods */,
+				D526789648728F6A3276E08FBF980142 /* Products */,
+				6C2E9107F160EB71D890768CA612EB95 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D526789648728F6A3276E08FBF980142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDFAB40D47110FDD0F58F4E772B7FB4 /* ExponeaSDK.framework */,
+				57EE9D40C81FCBE905D9D98105792D53 /* Pods_ObjCTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4DB695673FA32D743B62E15125632A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D5F4C69868E09AEE71C40CA086FF2B /* ExponeaSDK.modulemap */,
+				02DEDD6F54014F1F25587DDF8A126033 /* ExponeaSDK-dummy.m */,
+				3B1191692C6CD998836AD1E2E6A35075 /* ExponeaSDK-Info.plist */,
+				4005B7878D1CBAD07839A21E0947701F /* ExponeaSDK-prefix.pch */,
+				E9A505899D999032050550D7482DC81F /* ExponeaSDK-umbrella.h */,
+				6B618EE719411E414F880A25662F1CC2 /* ExponeaSDK.debug.xcconfig */,
+				3AD813E508E6D34B8C9311C8A0DC6C33 /* ExponeaSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ExponeaSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91ED845A88B9AA6A1A2B9CD24EBB2C23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84202DC580F0FEEA052A953AFC27F5C2 /* ExponeaSDK-umbrella.h in Headers */,
+				7D9EE1DBD26B54E81D2F704BBC1F7EAC /* objc_tryCatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93139832C7D4F8559C543884CB14A40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F0561CA3DF05B82CCA80FB5EDC9943 /* Pods-ObjCTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E686CBFD59D15E0FB63F5395DE28D3B /* Pods-ObjCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4B2FD554FE8B975892967DDE458953 /* Build configuration list for PBXNativeTarget "Pods-ObjCTest" */;
+			buildPhases = (
+				A93139832C7D4F8559C543884CB14A40 /* Headers */,
+				8C5595758A93EB55F6F6D084C520C9FC /* Sources */,
+				5EC1592316AF9E3F5F96A16A5FF639DC /* Frameworks */,
+				9D8C5353B8EC4C09FD30BA970190525F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ADCF2F9ADE993EDC240899029AB711 /* PBXTargetDependency */,
+			);
+			name = "Pods-ObjCTest";
+			productName = "Pods-ObjCTest";
+			productReference = 57EE9D40C81FCBE905D9D98105792D53 /* Pods_ObjCTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F314AC69DA2398C6F26C727A335C510 /* ExponeaSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6A4B3F761F58A17AB6F1EF4E144A6B /* Build configuration list for PBXNativeTarget "ExponeaSDK" */;
+			buildPhases = (
+				91ED845A88B9AA6A1A2B9CD24EBB2C23 /* Headers */,
+				B3CF86BE911F3CB0F623CED6092F3D69 /* Sources */,
+				AD0C7AC29C667C519544A793C613F8C6 /* Frameworks */,
+				643A6C31356E9C6CF2F1ABA0DE4D3639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExponeaSDK;
+			productName = ExponeaSDK;
+			productReference = 4BDFAB40D47110FDD0F58F4E772B7FB4 /* ExponeaSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D526789648728F6A3276E08FBF980142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F314AC69DA2398C6F26C727A335C510 /* ExponeaSDK */,
+				0E686CBFD59D15E0FB63F5395DE28D3B /* Pods-ObjCTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		643A6C31356E9C6CF2F1ABA0DE4D3639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8C5353B8EC4C09FD30BA970190525F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C5595758A93EB55F6F6D084C520C9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697B9ACD14C3DF2A0000CA551F9D39AB /* Pods-ObjCTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CF86BE911F3CB0F623CED6092F3D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC90DE3AEC3566CDEEB18C37B00FF1D /* Authorization.swift in Sources */,
+				A372D8FB4667F55B9DE93982F063381E /* BooleanOperators.swift in Sources */,
+				196E4D17BE38089167625DCF6C784693 /* BuildConfiguration.swift in Sources */,
+				A094194D505552AE191E820A5F7EC179 /* CampaignData.swift in Sources */,
+				1EB71F0582B7D6168796B63505A44E57 /* Configuration+UserDefaults.swift in Sources */,
+				C7BCA6E96A7E39DE910B01A711C285FE /* Configuration+Validation.swift in Sources */,
+				3C47BB9EF5F68F8AC56BAC859DACAC0E /* Configuration.swift in Sources */,
+				E058D93349C9FE77FD4411111B1D8F09 /* Consent.swift in Sources */,
+				2DFF96F58DB20693BAAEF387E13C5299 /* ConsentSources.swift in Sources */,
+				B4313EEE7CF8F0BF7DB1BFFD09EFF0A1 /* ConsentsResponse.swift in Sources */,
+				B842AFB493B05FCADBC926D96983FFA6 /* Constants.swift in Sources */,
+				D443446F022B968B2C6E132D456DF91C /* CrashLog.swift in Sources */,
+				58F1C66F4D0641557D4E38CF09BABC17 /* CrashManager.swift in Sources */,
+				30C9FEC79013EA45AF6B8ABE6A7D45C6 /* Customer.swift in Sources */,
+				618A4FCFE9E6EF56512C7DB16EF3555F /* Data+TokenString.swift in Sources */,
+				0252F2695C2CB86A96C2E9DC1556A62B /* DatabaseManager+DataType.swift in Sources */,
+				00798F12782222F1EDF4AE9F6733FB61 /* DatabaseManager.swift in Sources */,
+				92533BD045E320CDB8919505E127E180 /* DatabaseManagerError.swift in Sources */,
+				BE37C0F058A5126B741A95C4B32A8B70 /* DatabaseManagerType.swift in Sources */,
+				DBA876961EB7F4CFCA8D4AB2764D1AD6 /* DatabaseModel.xcdatamodeld in Sources */,
+				6C6950D9B43C89A728D6D7F66EC0EDA8 /* DataType+Codable.swift in Sources */,
+				93E4994A13BF1B791CBF92AE0B458DCC /* DataType.swift in Sources */,
+				F797E592DA0A0E52FD0B7C6235C3A37D /* DateFilter.swift in Sources */,
+				CEB51299E6EDE26316307DBF2E215880 /* DeviceProperties.swift in Sources */,
+				51E9BA83065B22D98D66BE50403C954B /* DispatchQueue+OnceTracker.swift in Sources */,
+				06C4B083CD3333DB43500FE857A62728 /* ErrorData.swift in Sources */,
+				8DB67F39FF1EBFB4F61BBDED30F508CE /* EventFilter.swift in Sources */,
+				174AC8CFE4123DC69362E101D99CE084 /* EventFilterAttribute.swift in Sources */,
+				C7480D1AB4A7C5D845DB7C29508B6ECA /* EventFilterConstraint+Operators.swift in Sources */,
+				BE3B5D0D2B582BDDD1950786DD828690 /* EventFilterConstraint.swift in Sources */,
+				D04F8128EEF24704F20AB77AB4E2D542 /* EventFilterOperator.swift in Sources */,
+				070EB538373118382B10D4D36F8A1AA7 /* EventType.swift in Sources */,
+				5ED4A2BB79EDEB5C5A3081C4448F1534 /* Exponea+Configuration.swift in Sources */,
+				63406C6D6ABD0C1B22835A8DEB49E505 /* Exponea.swift in Sources */,
+				06C938F43A55C6A78EB26CF9C38D6D50 /* ExponeaAppDelegate.swift in Sources */,
+				135B685B30D11733822E4B81220EC0AD /* ExponeaError.swift in Sources */,
+				B94A1BC6A8D095A333D385C5AF4F498D /* ExponeaInternal+Fetching.swift in Sources */,
+				05EA90265C0A4FA8494B3A37185D1342 /* ExponeaInternal+Tracking.swift in Sources */,
+				4D62183BF893295E900981F5140E2AAB /* ExponeaInternal.swift in Sources */,
+				7FE06A77C577D67E85A2E9D636E37295 /* ExponeaNotificationAction.swift in Sources */,
+				A3E0B4FB18C3F95D8E722FB592538E46 /* ExponeaNotificationActionType.swift in Sources */,
+				FA87E1BB01FB3BE64F28B49C4A755E87 /* ExponeaProject.swift in Sources */,
+				1ECDE6200CF59579B23C2EC38659D846 /* ExponeaSDK-dummy.m in Sources */,
+				D5C832167696DDAA23ED955D397E37D4 /* ExponeaType.swift in Sources */,
+				5E79D2903F735D9D048FC3CBA2EAEAA9 /* ExportFormat.swift in Sources */,
+				B3A46B2090778C98CEF7B58B37BDD909 /* FetchRepository.swift in Sources */,
+				2978CE33E33D30B0E5A40419233AB603 /* FileTelemetryStorage.swift in Sources */,
+				AE696B3E5A016C6111001C378D792537 /* FlushableObject.swift in Sources */,
+				29574D3A0F46DE7E209B504F6DD29A36 /* FlushingManager.swift in Sources */,
+				3E64AE85FFCE5535655F8CAA008A18CB /* FlushingManagerType.swift in Sources */,
+				604AB8D349488ADF221D85A5273ABF39 /* FlushingMode.swift in Sources */,
+				8BA80F18907DA75638B02315FEBA5D47 /* GenericOperators.swift in Sources */,
+				0587097B483AF4D683D9B1367CD51D0C /* HTTPMethod.swift in Sources */,
+				A2123B2C3CCA79F7DD6E630AA2D9C899 /* InAppMessage.swift in Sources */,
+				D7E23DD8F9963F859379306A94C69FDB /* InAppMessageActionButton.swift in Sources */,
+				0D0925CA64CCA54AC17C14BEB9B83D11 /* InAppMessageAlertView.swift in Sources */,
+				A539A07809647CB1D48A1DB71F8C366E /* InAppMessageDialogView.swift in Sources */,
+				E39D58734A471801F978B68CC6A446E7 /* InAppMessageDisplayStateStore.swift in Sources */,
+				A6BA0D017772B3880456607928127565 /* InAppMessageDisplayStatus.swift in Sources */,
+				D69727FEB98EA555771B4A742C910B1F /* InAppMessagePayload.swift in Sources */,
+				7A1553AE40ED1FBD46D0014DD5BE58C9 /* InAppMessagePresenter.swift in Sources */,
+				9454CE79B4129C862ADBB6A737E3BA3E /* InAppMessagePresenterType.swift in Sources */,
+				8E4A5BE4406E250C197D00A5034FA6E8 /* InAppMessagesCache.swift in Sources */,
+				3B0CA233B4D82FD3043547FAF2B83735 /* InAppMessagesCacheType.swift in Sources */,
+				6060EE40E93ED04465384F9E96045C19 /* InAppMessageSlideInView.swift in Sources */,
+				219960FF419BF3C3BF2F72524D649206 /* InAppMessagesManager.swift in Sources */,
+				6E1CBAF37EBCC0D9392C11BBB451FF73 /* InAppMessagesManagerType.swift in Sources */,
+				800BC5877B2B6ADD81AAB71392451942 /* InAppMessagesRequest.swift in Sources */,
+				5A47BFE9DD77274BB522FA442D53B213 /* InAppMessagesResponse.swift in Sources */,
+				39223E168340563D599B7A2DC0C00F5E /* InAppMessageTrackingDelegate.swift in Sources */,
+				6BED04466750D6615C13A36394EADF1C /* InAppMessageView.swift in Sources */,
+				82F6551AADB696DC7881E41A800105AA /* JSON+SnakeCase.swift in Sources */,
+				7B119A1DF3F79B772233300C495A8523 /* JSONConvertible.swift in Sources */,
+				B4A1263F5A73F7B32AAA2AE80F947DEE /* KeyValueItem.swift in Sources */,
+				859CF31F1853564565A9D2729773A7B3 /* Logger.swift in Sources */,
+				23C340C1CB03DF43CC7DB043DC6794BA /* LogLevel.swift in Sources */,
+				42D7841D1E88BF91C9445C71C276C93B /* MultipleErrorResponse.swift in Sources */,
+				BD8F3FD545348F253D1888B52AF6E8E0 /* NotificationData+Properties.swift in Sources */,
+				0426978D9E487ABFBA220345FE7B0CA6 /* NotificationData.swift in Sources */,
+				75ACF42D6F67C11FF15C04E617553FE9 /* NSManagedObjectContext+Perform.swift in Sources */,
+				A9775D96C2B6F1496E6379216D57114A /* NSManagedObjectWithContext.swift in Sources */,
+				B9063DEB69728D527FDE1C998723BF70 /* NSPersistentContainer+Bundle.swift in Sources */,
+				C1E7E03138940EC46868A814A82F5274 /* NumberOperators.swift in Sources */,
+				2A5FA4A5565A070745CE04C3A5590752 /* objc_tryCatch.m in Sources */,
+				F95754BB8AB3D11CCD832AB16B4EA41A /* PushNotificationDelegateObserver.swift in Sources */,
+				D230FF817D4DF172544CD51CEEFCCF3D /* PushNotificationManager+NSObject.swift in Sources */,
+				3B2706CB54A04508B73871F7B59FCF9B /* PushNotificationManager+UIResponder.swift in Sources */,
+				242A51467315080D67F8D76CEABC2DAC /* PushNotificationManager.swift in Sources */,
+				D990933CBF2AFE06FC1195A01871014E /* PushNotificationManagerType.swift in Sources */,
+				E138A6653A1A15285960AD33A1D88B99 /* PushNotificationParser.swift in Sources */,
+				05BCDA7CF412ED12688749B4BEE54CB1 /* PushNotificationReceiver.swift in Sources */,
+				7123830C4E61DB0ABD848952D5C62E9F /* PushNotificationSelectors.swift in Sources */,
+				60E40003D2FA586AA7FB37F1A2EAA7D6 /* PushNotificationSelfCheck.swift in Sources */,
+				1239B3C6C2F37930E1D13CE349A1237C /* PushNotificationSwizzler.swift in Sources */,
+				130104D071D3F07ADFD2DC6D76AC05D2 /* PushOpenedData.swift in Sources */,
+				9ABF1400ADB6519D45B7820CF216F378 /* PushSelfCheckRequest.swift in Sources */,
+				7DB891F1472ACE52B8AF7432CABA05EB /* Reachability.swift in Sources */,
+				06F0559979DC79129EC637B879ABF6F0 /* Recommendation.swift in Sources */,
+				CE83CCD59E3724C78C358C33498BF7E2 /* RecommendationOptions.swift in Sources */,
+				4496A8B30116895637841AAE45E8F54A /* RecommendationRequest.swift in Sources */,
+				F40FC88A1342BA413D52F5C788DCBFCA /* RecommendationResponse.swift in Sources */,
+				A2BB832623283788EA9328082E3A9576 /* RepositoryError.swift in Sources */,
+				2704B76E80474492976F8A4ABB3AD6CF /* RepositoryType.swift in Sources */,
+				C218DCE7FD12A9A737BFD06AC68EA5A7 /* RequestFactory.swift in Sources */,
+				F9829FA7F38A2AA53893BD714BC37D95 /* RequestParametersType.swift in Sources */,
+				3D734F278F5761FA8D4C9F8DB292676A /* Result.swift in Sources */,
+				41EF53B23D09E2F9A152A54AC1C14A72 /* Routes.swift in Sources */,
+				44114E6345A90F271FEF6A7BE4599EE5 /* SelfCheckRepository.swift in Sources */,
+				53D13BDCEB707A3BE9D820606850594B /* ServerRepository+FetchingRepository.swift in Sources */,
+				AAD3601D5F5F0CAD9211AC5317E565D2 /* ServerRepository+SelfCheckRepository.swift in Sources */,
+				2E2574BD0F6E3D7E810E2DC0E1AF7E21 /* ServerRepository+TrackingRepository.swift in Sources */,
+				725E55D02BFD0809DC8B545DBF09DA77 /* ServerRepository.swift in Sources */,
+				5933090E96DFEC1D460B08C562D7C577 /* SessionManager.swift in Sources */,
+				8A83FE7BACE6C2DD279D212C0B8796A2 /* SessionManagerType.swift in Sources */,
+				595C4F61E5954689D5FDA1D211467A9B /* String+URLValidation.swift in Sources */,
+				7F4CE2513A6A1925380E303B5F626127 /* StringOperators.swift in Sources */,
+				C244250AEB120AA455CE16F2D2F73779 /* Swizzle.swift in Sources */,
+				56121DA8091241FF0F9E1919D6AEFC39 /* Swizzler.swift in Sources */,
+				FEAFAA3E5FBC6F8998E80624CFAC176F /* TelemetryEventType.swift in Sources */,
+				91A1178260A1FD71EC9EB84C9165DAC3 /* TelemetryManager.swift in Sources */,
+				1E40475654401F9CB22CC5EB59918FF1 /* TelemetryStorage.swift in Sources */,
+				C2A21E823A461BD530503A53C11E69D6 /* TelemetryUpload.swift in Sources */,
+				5731419244A0BBD9D8468D6E0904D0DC /* TelemetryUtility.swift in Sources */,
+				E38112A4C6B274B8376B3E4F2FAADAF5 /* TokenTrackFrequency.swift in Sources */,
+				93357ABDF1D71CBD81926B8CA30A023A /* TrackCustomer.swift in Sources */,
+				E62CAB2734383CD2EE07AD394362744F /* TrackEvent.swift in Sources */,
+				1B41A3BB9CE7D9419E5137069915BF27 /* TrackingManager.swift in Sources */,
+				A153B761C3857BF7612EBC341367354F /* TrackingManagerError.swift in Sources */,
+				6DA98421340C7C9FDCFAD64561B52E40 /* TrackingManagerType.swift in Sources */,
+				69A01D36EEE4E57DA18B49C32E44162B /* TrackingObject.swift in Sources */,
+				518AB5C483B16CA6C1AF44CD1FB98B54 /* TrackingParameters.swift in Sources */,
+				13B21CD02352AE5F8384C955BE364B59 /* TrackingRepository.swift in Sources */,
+				655238BA62175AA963F70993785C328A /* UIApplication+UIApplicationDelegating.swift in Sources */,
+				59A65EA84CD50A929CD041E4C559A798 /* UIColor+FromHexString.swift in Sources */,
+				B5240C6C104F3D0FA781DCAB169DB290 /* UIImage+Gif.swift in Sources */,
+				492AE138C962A998E7461C5BC2F1F89D /* UNAuthorizationStatusProvider.swift in Sources */,
+				9BE56529F8827110365E6341C8F71D0B /* UNUserNotificationCenter+UNUserNotificationCenterDelegating.swift in Sources */,
+				2EC888BA9B21C3F25C3334002EE2AB87 /* UrlOpener.swift in Sources */,
+				56E8355A75816CC6A44EDD63A802328A /* UrlOpenerType.swift in Sources */,
+				F3B3F80C66C906EA33FD832A22D6328A /* URLRequest+Debug.swift in Sources */,
+				8A8EFDA3A5013DEF7FD32405819CC761 /* URLResponse+Debug.swift in Sources */,
+				C33FD80D8BAF06D69FC50B87B1702618 /* VSAppCenterAPIModel.swift in Sources */,
+				D51CD76765C11AE62C3B7CE699E2AE80 /* VSAppCenterTelemetryUpload.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04ADCF2F9ADE993EDC240899029AB711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExponeaSDK;
+			target = 5F314AC69DA2398C6F26C727A335C510 /* ExponeaSDK */;
+			targetProxy = 6DAB4D68CF96CD1F5AE021C8E5F4BA9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AA053AC2246FAD2B7F1B62419A74414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B618EE719411E414F880A25662F1CC2 /* ExponeaSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ExponeaSDK/ExponeaSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExponeaSDK/ExponeaSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ExponeaSDK/ExponeaSDK.modulemap";
+				PRODUCT_MODULE_NAME = ExponeaSDK;
+				PRODUCT_NAME = ExponeaSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		636BDDF57DE5B12CFC3F69326C9772D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD813E508E6D34B8C9311C8A0DC6C33 /* ExponeaSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ExponeaSDK/ExponeaSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExponeaSDK/ExponeaSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ExponeaSDK/ExponeaSDK.modulemap";
+				PRODUCT_MODULE_NAME = ExponeaSDK;
+				PRODUCT_NAME = ExponeaSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70309F13216CC51D1059DF2B0421A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D1CAAAACC84B15B8C5179495024F03 /* Pods-ObjCTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjCTest/Pods-ObjCTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjCTest/Pods-ObjCTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF55EF3798596B4CC2EE7A2553D953D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D831397B2F5D36FAF6A0BA73E944B6 /* Pods-ObjCTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjCTest/Pods-ObjCTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjCTest/Pods-ObjCTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6A4B3F761F58A17AB6F1EF4E144A6B /* Build configuration list for PBXNativeTarget "ExponeaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA053AC2246FAD2B7F1B62419A74414 /* Debug */,
+				636BDDF57DE5B12CFC3F69326C9772D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4B2FD554FE8B975892967DDE458953 /* Build configuration list for PBXNativeTarget "Pods-ObjCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF55EF3798596B4CC2EE7A2553D953D3 /* Debug */,
+				70309F13216CC51D1059DF2B0421A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D68A0A88ECC9F2B7C184537F443CC8C9 /* DatabaseModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				738118C5713A25E8CFD717152AFE4FD3 /* DatabaseModel.xcdatamodel */,
+				0003F66CBFE7426433F8221529614DD3 /* DatabaseModel v2.xcdatamodel */,
+				81EAB48B2538371DB9BEA1A5898E399B /* DatabaseModel v3.xcdatamodel */,
+				28A0CCC9380DC80568BC80DAF4C7C13B /* DatabaseModel v4.xcdatamodel */,
+				BD8658F08D00E8C19961F8AE48F03AE1 /* DatabaseModel v5.xcdatamodel */,
+				63DE599F290C98FD83C1C42CD6978520 /* DatabaseModel v6.xcdatamodel */,
+			);
+			currentVersion = 63DE599F290C98FD83C1C42CD6978520 /* DatabaseModel v6.xcdatamodel */;
+			name = DatabaseModel.xcdatamodeld;
+			path = ExponeaSDK/ExponeaSDK/Classes/Database/DatabaseModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
