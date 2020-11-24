@@ -1,0 +1,6 @@
+framework module Pods_PushContentExtension {
+  umbrella header "Pods-PushContentExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

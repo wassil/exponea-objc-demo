@@ -1,16 +1,20 @@
 PODS:
   - ExponeaSDK (2.9.3)
+  - ExponeaSDK-Notifications (2.9.3)
 
 DEPENDENCIES:
   - ExponeaSDK (~> 2.9.3)
+  - ExponeaSDK-Notifications (~> 2.9.3)
 
 SPEC REPOS:
   trunk:
     - ExponeaSDK
+    - ExponeaSDK-Notifications
 
 SPEC CHECKSUMS:
   ExponeaSDK: 2eafd4afe56a87324793b2c71316095f7b63dfa2
+  ExponeaSDK-Notifications: 545b3d69d10a3da6d9e322a7ccbd7b86e99878d0
 
-PODFILE CHECKSUM: 03898fad7753234ef840ea3ded1d398d2dad39a0
+PODFILE CHECKSUM: d71a46b2aa6ccf5297e9769d3adc3c9ee8c06607
 
 COCOAPODS: 1.9.3

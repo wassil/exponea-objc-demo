@@ -8,3 +8,14 @@ target 'ObjCTest' do
   # Pods for ObjCTest
   pod "ExponeaSDK", "~> 2.9.3"
 end
+
+target "PushServiceExtension" do
+  use_frameworks!
+  pod "ExponeaSDK-Notifications", "~> 2.9.3"
+end
+
+
+target "PushContentExtension" do
+  use_frameworks!
+  pod "ExponeaSDK-Notifications", "~> 2.9.3"
+end

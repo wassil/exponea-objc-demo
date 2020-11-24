@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-ObjCTest/Pods-ObjCTest-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/ExponeaSDK/ExponeaSDK.framework
+${BUILT_PRODUCTS_DIR}/ExponeaSDK-Notifications/ExponeaSDK_Notifications.framework
